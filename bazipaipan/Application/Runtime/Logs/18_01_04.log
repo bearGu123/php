@@ -1,0 +1,1087 @@
+[ 2018-01-04T10:45:32+08:00 ] ::1 /bazipaipan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002272s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [8] Undefined index: uid F:\php\bazipaipan\Application\Home\Controller\IndexController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003090s ]
+
+[ 2018-01-04T10:45:38+08:00 ] ::1 /bazipaipan/index.php/Home/Index/pp_msg?arrnumber=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [8] Undefined index: birthday F:\php\bazipaipan\Application\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: select ny from tb_wedlock where name='丙申' [ RunTime:0.044420s ]
+SQL: select ny from tb_wedlock where name='甲午' [ RunTime:0.001065s ]
+SQL: select ny from tb_wedlock where name='乙酉' [ RunTime:0.000877s ]
+SQL: select ny from tb_wedlock where name='壬午' [ RunTime:0.000896s ]
+SQL: select bing from tb_shishen where id=2 [ RunTime:0.012172s ]
+SQL: select jia from tb_shishen where id=2 [ RunTime:0.000599s ]
+SQL: select ren from tb_shishen where id=2 [ RunTime:0.000499s ]
+SQL: select shen from tb_dizhi_shishen where id=2 [ RunTime:0.023658s ]
+SQL: select wu from tb_dizhi_shishen where id=2 [ RunTime:0.000550s ]
+SQL: select you from tb_dizhi_shishen where id=2 [ RunTime:0.000508s ]
+SQL: select wu from tb_dizhi_shishen where id=2 [ RunTime:0.000505s ]
+SQL: select shen,wu,you,wu from tb_dizhi_shishen where id=11 [ RunTime:0.000829s ]
+SQL: select name from tb_bz_wangshuai where yi='申' [ RunTime:0.019037s ]
+SQL: select name from tb_bz_wangshuai where yi='午' [ RunTime:0.000554s ]
+SQL: select name from tb_bz_wangshuai where yi='酉' [ RunTime:0.000511s ]
+SQL: select name from tb_bz_wangshuai where yi='午' [ RunTime:0.000487s ]
+SQL: select yi from tb_shishen where id=2 [ RunTime:0.000550s ]
+SQL: select bing from tb_shishen where id=2 [ RunTime:0.000753s ]
+SQL: select ding from tb_shishen where id=2 [ RunTime:0.000555s ]
+SQL: select wu from tb_shishen where id=2 [ RunTime:0.000609s ]
+SQL: select ji from tb_shishen where id=2 [ RunTime:0.000853s ]
+SQL: select geng from tb_shishen where id=2 [ RunTime:0.000604s ]
+SQL: select xin from tb_shishen where id=2 [ RunTime:0.000511s ]
+SQL: select ren from tb_shishen where id=2 [ RunTime:0.000514s ]
+SQL: select * from tb_wuxingju where id=28 [ RunTime:0.010900s ]
+SQL: select zwei from tb_zhuxingmwsx where id=6 [ RunTime:0.010099s ]
+SQL: select lzhen from tb_zhuxingmwsx where id=10 [ RunTime:0.000525s ]
+SQL: select ttong from tb_zhuxingmwsx where id=1 [ RunTime:0.000517s ]
+SQL: select wuqu from tb_zhuxingmwsx where id=2 [ RunTime:0.000488s ]
+SQL: select tyang from tb_zhuxingmwsx where id=3 [ RunTime:0.000586s ]
+SQL: select tji from tb_zhuxingmwsx where id=5 [ RunTime:0.000491s ]
+SQL: select tfu from tb_zhuxingmwsx where id=6 [ RunTime:0.000486s ]
+SQL: select tyin from tb_zhuxingmwsx where id=7 [ RunTime:0.000491s ]
+SQL: select tlang from tb_zhuxingmwsx where id=8 [ RunTime:0.000495s ]
+SQL: select jmen from tb_zhuxingmwsx where id=9 [ RunTime:0.000527s ]
+SQL: select txiang from tb_zhuxingmwsx where id=10 [ RunTime:0.000527s ]
+SQL: select tliang from tb_zhuxingmwsx where id=11 [ RunTime:0.000485s ]
+SQL: select qsha from tb_zhuxingmwsx where id=0 [ RunTime:0.000484s ]
+SQL: select pjun from tb_zhuxingmwsx where id=4 [ RunTime:0.000506s ]
+SQL: select * from tb_shengyuezx where id=5 [ RunTime:0.047429s ]
+NOTIC: [8] Undefined offset: 4 F:\php\bazipaipan\Application\Home\Common\function.php 第 482 行.
+NOTIC: [8] Undefined offset: 11 F:\php\bazipaipan\Application\Home\Common\function.php 第 486 行.
+NOTIC: [8] Undefined offset: 3 F:\php\bazipaipan\Application\Home\Common\function.php 第 488 行.
+NOTIC: [8] Undefined offset: 5 F:\php\bazipaipan\Application\Home\Common\function.php 第 490 行.
+SQL: select * from tb_shengnianzx where id=9 [ RunTime:0.016124s ]
+NOTIC: [8] Undefined offset: 0 F:\php\bazipaipan\Application\Home\Common\function.php 第 500 行.
+NOTIC: [8] Undefined offset: 8 F:\php\bazipaipan\Application\Home\Common\function.php 第 502 行.
+NOTIC: [8] Undefined offset: 3 F:\php\bazipaipan\Application\Home\Common\function.php 第 504 行.
+NOTIC: [8] Undefined offset: 5 F:\php\bazipaipan\Application\Home\Common\function.php 第 506 行.
+NOTIC: [8] Undefined offset: 10 F:\php\bazipaipan\Application\Home\Common\function.php 第 508 行.
+NOTIC: [8] Undefined offset: 9 F:\php\bazipaipan\Application\Home\Common\function.php 第 512 行.
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 516 行.
+NOTIC: [8] Undefined offset: 1 F:\php\bazipaipan\Application\Home\Common\function.php 第 518 行.
+NOTIC: [8] Undefined offset: 2 F:\php\bazipaipan\Application\Home\Common\function.php 第 520 行.
+SQL: select * from tb_shixizx where hour=12 [ RunTime:0.020178s ]
+SQL: select wchang from tb_zhuxingmwsx where id=2 [ RunTime:0.000626s ]
+SQL: select wqu from tb_zhuxingmwsx where id=8 [ RunTime:0.000486s ]
+NOTIC: [8] Undefined offset: 8 F:\php\bazipaipan\Application\Home\Common\function.php 第 542 行.
+NOTIC: [8] Undefined offset: 3 F:\php\bazipaipan\Application\Home\Common\function.php 第 544 行.
+NOTIC: [8] Undefined offset: 10 F:\php\bazipaipan\Application\Home\Common\function.php 第 548 行.
+NOTIC: [8] Undefined offset: 6 F:\php\bazipaipan\Application\Home\Common\function.php 第 550 行.
+SQL: select * from tb_shengniangx where id=3 [ RunTime:0.015956s ]
+SQL: select qyang from tb_zhuxingmwsx where id=4 [ RunTime:0.000722s ]
+SQL: select tluo from tb_zhuxingmwsx where id=2 [ RunTime:0.000646s ]
+NOTIC: [8] Undefined offset: 2 F:\php\bazipaipan\Application\Home\Common\function.php 第 561 行.
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 563 行.
+NOTIC: [8] Undefined offset: 9 F:\php\bazipaipan\Application\Home\Common\function.php 第 565 行.
+NOTIC: [8] Undefined offset: 3 F:\php\bazipaipan\Application\Home\Common\function.php 第 567 行.
+NOTIC: [8] Undefined offset: 10 F:\php\bazipaipan\Application\Home\Common\function.php 第 569 行.
+NOTIC: [8] Undefined index: zkong F:\php\bazipaipan\Application\Home\Common\function.php 第 572 行.
+NOTIC: [8] Undefined offset: 0 F:\php\bazipaipan\Application\Home\Common\function.php 第 573 行.
+NOTIC: [8] Undefined index: fkong F:\php\bazipaipan\Application\Home\Common\function.php 第 574 行.
+SQL: select szc from tb_huoxing where id=12 [ RunTime:0.014339s ]
+SQL: select hxing from tb_zhuxingmwsx where id=11 [ RunTime:0.000692s ]
+SQL: select szc from tb_lingxing where id=12 [ RunTime:0.013371s ]
+SQL: select lxing from tb_zhuxingmwsx where id=7 [ RunTime:0.000556s ]
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 744 行.
+NOTIC: [8] Undefined offset: 9 F:\php\bazipaipan\Application\Home\Common\function.php 第 752 行.
+NOTIC: [8] Undefined offset: 10 F:\php\bazipaipan\Application\Home\Common\function.php 第 759 行.
+NOTIC: [8] Undefined offset: 4 F:\php\bazipaipan\Application\Home\Common\function.php 第 771 行.
+NOTIC: [8] Undefined offset: 3 F:\php\bazipaipan\Application\Home\Common\function.php 第 778 行.
+NOTIC: [8] Undefined offset: 2 F:\php\bazipaipan\Application\Home\Common\function.php 第 781 行.
+NOTIC: [8] Undefined offset: 0 F:\php\bazipaipan\Application\Home\Common\function.php 第 784 行.
+SQL: select * from tb_sihua where id=3 [ RunTime:0.002603s ]
+NOTIC: [8] Undefined offset: 4 F:\php\bazipaipan\Application\Home\Common\function.php 第 801 行.
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 808 行.
+NOTIC: [8] Undefined offset: 0 F:\php\bazipaipan\Application\Home\Common\function.php 第 830 行.
+SQL: select * from tb_wedlock where name='乙酉' [ RunTime:0.000973s ]
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 879 行.
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 883 行.
+NOTIC: [8] Undefined offset: 5 F:\php\bazipaipan\Application\Home\Common\function.php 第 883 行.
+NOTIC: [8] Undefined offset: 5 F:\php\bazipaipan\Application\Home\Common\function.php 第 884 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.081344s ]
+
+[ 2018-01-04T10:45:40+08:00 ] ::1 /bazipaipan/index.php/Home/Index/generateImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001982s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002282s ]
+
+[ 2018-01-04T10:45:43+08:00 ] ::1 /bazipaipan/index.php/Home/Index/pp_msg?arrnumber=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002101s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [8] Undefined index: birthday F:\php\bazipaipan\Application\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: select ny from tb_wedlock where name='丙申' [ RunTime:0.000751s ]
+SQL: select ny from tb_wedlock where name='甲午' [ RunTime:0.000944s ]
+SQL: select ny from tb_wedlock where name='乙酉' [ RunTime:0.001188s ]
+SQL: select ny from tb_wedlock where name='壬午' [ RunTime:0.000915s ]
+SQL: select bing from tb_shishen where id=2 [ RunTime:0.000522s ]
+SQL: select jia from tb_shishen where id=2 [ RunTime:0.000501s ]
+SQL: select ren from tb_shishen where id=2 [ RunTime:0.000478s ]
+SQL: select shen from tb_dizhi_shishen where id=2 [ RunTime:0.000450s ]
+SQL: select wu from tb_dizhi_shishen where id=2 [ RunTime:0.000961s ]
+SQL: select you from tb_dizhi_shishen where id=2 [ RunTime:0.000498s ]
+SQL: select wu from tb_dizhi_shishen where id=2 [ RunTime:0.000463s ]
+SQL: select shen,wu,you,wu from tb_dizhi_shishen where id=11 [ RunTime:0.000512s ]
+SQL: select name from tb_bz_wangshuai where yi='申' [ RunTime:0.000501s ]
+SQL: select name from tb_bz_wangshuai where yi='午' [ RunTime:0.000483s ]
+SQL: select name from tb_bz_wangshuai where yi='酉' [ RunTime:0.000486s ]
+SQL: select name from tb_bz_wangshuai where yi='午' [ RunTime:0.000488s ]
+SQL: select yi from tb_shishen where id=2 [ RunTime:0.000892s ]
+SQL: select bing from tb_shishen where id=2 [ RunTime:0.004418s ]
+SQL: select ding from tb_shishen where id=2 [ RunTime:0.000492s ]
+SQL: select wu from tb_shishen where id=2 [ RunTime:0.000474s ]
+SQL: select ji from tb_shishen where id=2 [ RunTime:0.000460s ]
+SQL: select geng from tb_shishen where id=2 [ RunTime:0.000528s ]
+SQL: select xin from tb_shishen where id=2 [ RunTime:0.000455s ]
+SQL: select ren from tb_shishen where id=2 [ RunTime:0.001849s ]
+SQL: select * from tb_wuxingju where id=28 [ RunTime:0.000907s ]
+SQL: select zwei from tb_zhuxingmwsx where id=6 [ RunTime:0.000582s ]
+SQL: select lzhen from tb_zhuxingmwsx where id=10 [ RunTime:0.000518s ]
+SQL: select ttong from tb_zhuxingmwsx where id=1 [ RunTime:0.000479s ]
+SQL: select wuqu from tb_zhuxingmwsx where id=2 [ RunTime:0.000491s ]
+SQL: select tyang from tb_zhuxingmwsx where id=3 [ RunTime:0.000511s ]
+SQL: select tji from tb_zhuxingmwsx where id=5 [ RunTime:0.000546s ]
+SQL: select tfu from tb_zhuxingmwsx where id=6 [ RunTime:0.000510s ]
+SQL: select tyin from tb_zhuxingmwsx where id=7 [ RunTime:0.000486s ]
+SQL: select tlang from tb_zhuxingmwsx where id=8 [ RunTime:0.000433s ]
+SQL: select jmen from tb_zhuxingmwsx where id=9 [ RunTime:0.000539s ]
+SQL: select txiang from tb_zhuxingmwsx where id=10 [ RunTime:0.001701s ]
+SQL: select tliang from tb_zhuxingmwsx where id=11 [ RunTime:0.000718s ]
+SQL: select qsha from tb_zhuxingmwsx where id=0 [ RunTime:0.000491s ]
+SQL: select pjun from tb_zhuxingmwsx where id=4 [ RunTime:0.000502s ]
+SQL: select * from tb_shengyuezx where id=5 [ RunTime:0.000604s ]
+NOTIC: [8] Undefined offset: 4 F:\php\bazipaipan\Application\Home\Common\function.php 第 482 行.
+NOTIC: [8] Undefined offset: 11 F:\php\bazipaipan\Application\Home\Common\function.php 第 486 行.
+NOTIC: [8] Undefined offset: 3 F:\php\bazipaipan\Application\Home\Common\function.php 第 488 行.
+NOTIC: [8] Undefined offset: 5 F:\php\bazipaipan\Application\Home\Common\function.php 第 490 行.
+SQL: select * from tb_shengnianzx where id=9 [ RunTime:0.000736s ]
+NOTIC: [8] Undefined offset: 0 F:\php\bazipaipan\Application\Home\Common\function.php 第 500 行.
+NOTIC: [8] Undefined offset: 8 F:\php\bazipaipan\Application\Home\Common\function.php 第 502 行.
+NOTIC: [8] Undefined offset: 3 F:\php\bazipaipan\Application\Home\Common\function.php 第 504 行.
+NOTIC: [8] Undefined offset: 5 F:\php\bazipaipan\Application\Home\Common\function.php 第 506 行.
+NOTIC: [8] Undefined offset: 10 F:\php\bazipaipan\Application\Home\Common\function.php 第 508 行.
+NOTIC: [8] Undefined offset: 9 F:\php\bazipaipan\Application\Home\Common\function.php 第 512 行.
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 516 行.
+NOTIC: [8] Undefined offset: 1 F:\php\bazipaipan\Application\Home\Common\function.php 第 518 行.
+NOTIC: [8] Undefined offset: 2 F:\php\bazipaipan\Application\Home\Common\function.php 第 520 行.
+SQL: select * from tb_shixizx where hour=12 [ RunTime:0.000813s ]
+SQL: select wchang from tb_zhuxingmwsx where id=2 [ RunTime:0.000739s ]
+SQL: select wqu from tb_zhuxingmwsx where id=8 [ RunTime:0.000509s ]
+NOTIC: [8] Undefined offset: 8 F:\php\bazipaipan\Application\Home\Common\function.php 第 542 行.
+NOTIC: [8] Undefined offset: 3 F:\php\bazipaipan\Application\Home\Common\function.php 第 544 行.
+NOTIC: [8] Undefined offset: 10 F:\php\bazipaipan\Application\Home\Common\function.php 第 548 行.
+NOTIC: [8] Undefined offset: 6 F:\php\bazipaipan\Application\Home\Common\function.php 第 550 行.
+SQL: select * from tb_shengniangx where id=3 [ RunTime:0.000672s ]
+SQL: select qyang from tb_zhuxingmwsx where id=4 [ RunTime:0.000609s ]
+SQL: select tluo from tb_zhuxingmwsx where id=2 [ RunTime:0.000494s ]
+NOTIC: [8] Undefined offset: 2 F:\php\bazipaipan\Application\Home\Common\function.php 第 561 行.
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 563 行.
+NOTIC: [8] Undefined offset: 9 F:\php\bazipaipan\Application\Home\Common\function.php 第 565 行.
+NOTIC: [8] Undefined offset: 3 F:\php\bazipaipan\Application\Home\Common\function.php 第 567 行.
+NOTIC: [8] Undefined offset: 10 F:\php\bazipaipan\Application\Home\Common\function.php 第 569 行.
+NOTIC: [8] Undefined index: zkong F:\php\bazipaipan\Application\Home\Common\function.php 第 572 行.
+NOTIC: [8] Undefined offset: 0 F:\php\bazipaipan\Application\Home\Common\function.php 第 573 行.
+NOTIC: [8] Undefined index: fkong F:\php\bazipaipan\Application\Home\Common\function.php 第 574 行.
+SQL: select szc from tb_huoxing where id=12 [ RunTime:0.000604s ]
+SQL: select hxing from tb_zhuxingmwsx where id=11 [ RunTime:0.000661s ]
+SQL: select szc from tb_lingxing where id=12 [ RunTime:0.000513s ]
+SQL: select lxing from tb_zhuxingmwsx where id=7 [ RunTime:0.000559s ]
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 744 行.
+NOTIC: [8] Undefined offset: 9 F:\php\bazipaipan\Application\Home\Common\function.php 第 752 行.
+NOTIC: [8] Undefined offset: 10 F:\php\bazipaipan\Application\Home\Common\function.php 第 759 行.
+NOTIC: [8] Undefined offset: 4 F:\php\bazipaipan\Application\Home\Common\function.php 第 771 行.
+NOTIC: [8] Undefined offset: 3 F:\php\bazipaipan\Application\Home\Common\function.php 第 778 行.
+NOTIC: [8] Undefined offset: 2 F:\php\bazipaipan\Application\Home\Common\function.php 第 781 行.
+NOTIC: [8] Undefined offset: 0 F:\php\bazipaipan\Application\Home\Common\function.php 第 784 行.
+SQL: select * from tb_sihua where id=3 [ RunTime:0.000561s ]
+NOTIC: [8] Undefined offset: 4 F:\php\bazipaipan\Application\Home\Common\function.php 第 801 行.
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 808 行.
+NOTIC: [8] Undefined offset: 0 F:\php\bazipaipan\Application\Home\Common\function.php 第 830 行.
+SQL: select * from tb_wedlock where name='乙酉' [ RunTime:0.001402s ]
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 879 行.
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 883 行.
+NOTIC: [8] Undefined offset: 5 F:\php\bazipaipan\Application\Home\Common\function.php 第 883 行.
+NOTIC: [8] Undefined offset: 5 F:\php\bazipaipan\Application\Home\Common\function.php 第 884 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000339s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002096s ]
+
+[ 2018-01-04T10:45:45+08:00 ] ::1 /bazipaipan/index.php/Home/Index/fenxiang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: select id from tb_cnzz_data where date='20180104' [ RunTime:0.000643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001562s ]
+
+[ 2018-01-04T10:45:48+08:00 ] ::1 /bazipaipan/index.php/Home/Index/fenxiang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: select id from tb_cnzz_data where date='20180104' [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2018-01-04T10:46:03+08:00 ] ::1 /bazipaipan/index.php/Home/Index/fenxiang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: select id from tb_cnzz_data where date='20180104' [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001188s ]
+
+[ 2018-01-04T10:46:06+08:00 ] ::1 /bazipaipan/index.php/Home/Index/fenxiang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: select id from tb_cnzz_data where date='20180104' [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001481s ]
+
+[ 2018-01-04T10:46:08+08:00 ] ::1 /bazipaipan/index.php/Home/Index/fenxiang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: select id from tb_cnzz_data where date='20180104' [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2018-01-04T10:46:17+08:00 ] ::1 /bazipaipan/index.php/Home/Index/cnzz_ruku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: update tb_cnzz_data set bzppdsfx='1' where date='20180104' [ RunTime:0.000765s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given F:\php\bazipaipan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 106 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001449s ]
+
+[ 2018-01-04T14:00:43+08:00 ] ::1 /bazipaipan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001488s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [8] Undefined index: uid F:\php\bazipaipan\Application\Home\Controller\IndexController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001772s ]
+
+[ 2018-01-04T14:00:49+08:00 ] ::1 /bazipaipan/index.php/Home/Index/msgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003110s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002513s ]
+
+[ 2018-01-04T14:00:58+08:00 ] ::1 /bazipaipan/index.php/Home/Index/delete?sid=2887
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001932s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001819s ]
+
+[ 2018-01-04T14:01:00+08:00 ] ::1 /bazipaipan/index.php/Home/Index/msgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002270s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001680s ]
+
+[ 2018-01-04T14:01:03+08:00 ] ::1 /bazipaipan/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [8] Undefined index: uid F:\php\bazipaipan\Application\Home\Controller\IndexController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004443s ]
+
+[ 2018-01-04T14:02:02+08:00 ] ::1 /bazipaipan/index.php/Home/Index/pp_msg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [8] Undefined index: arrnumber F:\php\bazipaipan\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: select ny from tb_wedlock where name='壬申' [ RunTime:0.001724s ]
+SQL: select ny from tb_wedlock where name='壬寅' [ RunTime:0.000980s ]
+SQL: select ny from tb_wedlock where name='癸酉' [ RunTime:0.000957s ]
+SQL: select ny from tb_wedlock where name='丁巳' [ RunTime:0.000831s ]
+SQL: select ren from tb_shishen where id=10 [ RunTime:0.001411s ]
+SQL: select ren from tb_shishen where id=10 [ RunTime:0.000596s ]
+SQL: select ding from tb_shishen where id=10 [ RunTime:0.000606s ]
+SQL: select shen from tb_dizhi_shishen where id=10 [ RunTime:0.001245s ]
+SQL: select yin from tb_dizhi_shishen where id=10 [ RunTime:0.000491s ]
+SQL: select you from tb_dizhi_shishen where id=10 [ RunTime:0.000505s ]
+SQL: select si from tb_dizhi_shishen where id=10 [ RunTime:0.000532s ]
+SQL: select shen,yin,you,si from tb_dizhi_shishen where id=11 [ RunTime:0.000885s ]
+SQL: select name from tb_bz_wangshuai where gui='申' [ RunTime:0.001498s ]
+SQL: select name from tb_bz_wangshuai where gui='寅' [ RunTime:0.000684s ]
+SQL: select name from tb_bz_wangshuai where gui='酉' [ RunTime:0.000535s ]
+SQL: select name from tb_bz_wangshuai where gui='巳' [ RunTime:0.000506s ]
+SQL: select gui from tb_shishen where id=10 [ RunTime:0.000514s ]
+SQL: select jia from tb_shishen where id=10 [ RunTime:0.000521s ]
+SQL: select yi from tb_shishen where id=10 [ RunTime:0.000481s ]
+SQL: select bing from tb_shishen where id=10 [ RunTime:0.000483s ]
+SQL: select ding from tb_shishen where id=10 [ RunTime:0.000488s ]
+SQL: select wu from tb_shishen where id=10 [ RunTime:0.000653s ]
+SQL: select ji from tb_shishen where id=10 [ RunTime:0.000764s ]
+SQL: select geng from tb_shishen where id=10 [ RunTime:0.000469s ]
+SQL: select * from tb_wuxingju where id=24 [ RunTime:0.001303s ]
+SQL: select zwei from tb_zhuxingmwsx where id=5 [ RunTime:0.001322s ]
+SQL: select lzhen from tb_zhuxingmwsx where id=9 [ RunTime:0.000514s ]
+SQL: select ttong from tb_zhuxingmwsx where id=0 [ RunTime:0.000479s ]
+SQL: select wuqu from tb_zhuxingmwsx where id=1 [ RunTime:0.000498s ]
+SQL: select tyang from tb_zhuxingmwsx where id=2 [ RunTime:0.000481s ]
+SQL: select tji from tb_zhuxingmwsx where id=4 [ RunTime:0.000482s ]
+SQL: select tfu from tb_zhuxingmwsx where id=7 [ RunTime:0.000489s ]
+SQL: select tyin from tb_zhuxingmwsx where id=8 [ RunTime:0.000498s ]
+SQL: select tlang from tb_zhuxingmwsx where id=9 [ RunTime:0.000496s ]
+SQL: select jmen from tb_zhuxingmwsx where id=10 [ RunTime:0.000491s ]
+SQL: select txiang from tb_zhuxingmwsx where id=11 [ RunTime:0.000481s ]
+SQL: select tliang from tb_zhuxingmwsx where id=0 [ RunTime:0.000491s ]
+SQL: select qsha from tb_zhuxingmwsx where id=1 [ RunTime:0.000479s ]
+SQL: select pjun from tb_zhuxingmwsx where id=5 [ RunTime:0.000484s ]
+SQL: select * from tb_shengyuezx where id=1 [ RunTime:0.001811s ]
+NOTIC: [8] Undefined offset: 8 F:\php\bazipaipan\Application\Home\Common\function.php 第 482 行.
+NOTIC: [8] Undefined offset: 0 F:\php\bazipaipan\Application\Home\Common\function.php 第 484 行.
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 486 行.
+NOTIC: [8] Undefined offset: 11 F:\php\bazipaipan\Application\Home\Common\function.php 第 488 行.
+NOTIC: [8] Undefined offset: 3 F:\php\bazipaipan\Application\Home\Common\function.php 第 492 行.
+SQL: select * from tb_shengnianzx where id=9 [ RunTime:0.002176s ]
+NOTIC: [8] Undefined offset: 0 F:\php\bazipaipan\Application\Home\Common\function.php 第 500 行.
+NOTIC: [8] Undefined offset: 8 F:\php\bazipaipan\Application\Home\Common\function.php 第 502 行.
+NOTIC: [8] Undefined offset: 3 F:\php\bazipaipan\Application\Home\Common\function.php 第 504 行.
+NOTIC: [8] Undefined offset: 5 F:\php\bazipaipan\Application\Home\Common\function.php 第 506 行.
+NOTIC: [8] Undefined offset: 10 F:\php\bazipaipan\Application\Home\Common\function.php 第 508 行.
+NOTIC: [8] Undefined offset: 9 F:\php\bazipaipan\Application\Home\Common\function.php 第 512 行.
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 516 行.
+NOTIC: [8] Undefined offset: 1 F:\php\bazipaipan\Application\Home\Common\function.php 第 518 行.
+NOTIC: [8] Undefined offset: 2 F:\php\bazipaipan\Application\Home\Common\function.php 第 520 行.
+SQL: select * from tb_shixizx where hour=10 [ RunTime:0.001386s ]
+SQL: select wchang from tb_zhuxingmwsx where id=3 [ RunTime:0.000503s ]
+SQL: select wqu from tb_zhuxingmwsx where id=7 [ RunTime:0.000476s ]
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 542 行.
+NOTIC: [8] Undefined offset: 4 F:\php\bazipaipan\Application\Home\Common\function.php 第 544 行.
+NOTIC: [8] Undefined offset: 2 F:\php\bazipaipan\Application\Home\Common\function.php 第 546 行.
+NOTIC: [8] Undefined offset: 9 F:\php\bazipaipan\Application\Home\Common\function.php 第 548 行.
+NOTIC: [8] Undefined offset: 5 F:\php\bazipaipan\Application\Home\Common\function.php 第 550 行.
+SQL: select * from tb_shengniangx where id=9 [ RunTime:0.001315s ]
+SQL: select qyang from tb_zhuxingmwsx where id=10 [ RunTime:0.000486s ]
+SQL: select tluo from tb_zhuxingmwsx where id=8 [ RunTime:0.000488s ]
+NOTIC: [8] Undefined offset: 8 F:\php\bazipaipan\Application\Home\Common\function.php 第 561 行.
+NOTIC: [8] Undefined offset: 3 F:\php\bazipaipan\Application\Home\Common\function.php 第 563 行.
+NOTIC: [8] Undefined offset: 1 F:\php\bazipaipan\Application\Home\Common\function.php 第 565 行.
+NOTIC: [8] Undefined offset: 9 F:\php\bazipaipan\Application\Home\Common\function.php 第 567 行.
+NOTIC: [8] Undefined offset: 4 F:\php\bazipaipan\Application\Home\Common\function.php 第 569 行.
+NOTIC: [8] Undefined index: zkong F:\php\bazipaipan\Application\Home\Common\function.php 第 572 行.
+NOTIC: [8] Undefined offset: 0 F:\php\bazipaipan\Application\Home\Common\function.php 第 573 行.
+NOTIC: [8] Undefined index: fkong F:\php\bazipaipan\Application\Home\Common\function.php 第 574 行.
+SQL: select szc from tb_huoxing where id=10 [ RunTime:0.001232s ]
+SQL: select hxing from tb_zhuxingmwsx where id=9 [ RunTime:0.000496s ]
+SQL: select szc from tb_lingxing where id=10 [ RunTime:0.001186s ]
+SQL: select lxing from tb_zhuxingmwsx where id=5 [ RunTime:0.000532s ]
+NOTIC: [8] Undefined offset: 5 F:\php\bazipaipan\Application\Home\Common\function.php 第 744 行.
+NOTIC: [8] Undefined offset: 1 F:\php\bazipaipan\Application\Home\Common\function.php 第 752 行.
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 759 行.
+NOTIC: [8] Undefined offset: 4 F:\php\bazipaipan\Application\Home\Common\function.php 第 781 行.
+NOTIC: [8] Undefined offset: 2 F:\php\bazipaipan\Application\Home\Common\function.php 第 784 行.
+SQL: select * from tb_sihua where id=9 [ RunTime:0.001296s ]
+NOTIC: [8] Undefined offset: 6 F:\php\bazipaipan\Application\Home\Common\function.php 第 801 行.
+NOTIC: [8] Undefined offset: 11 F:\php\bazipaipan\Application\Home\Common\function.php 第 817 行.
+SQL: select * from tb_wedlock where name='癸酉' [ RunTime:0.000951s ]
+NOTIC: [8] Undefined offset: 9 F:\php\bazipaipan\Application\Home\Common\function.php 第 879 行.
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 884 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003889s ]
+
+[ 2018-01-04T14:02:04+08:00 ] ::1 /bazipaipan/index.php/Home/Index/generateImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003885s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001495s ]
+
+[ 2018-01-04T14:02:06+08:00 ] ::1 /bazipaipan/index.php/Home/Index/pp_msg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [8] Undefined index: arrnumber F:\php\bazipaipan\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: select ny from tb_wedlock where name='壬申' [ RunTime:0.003177s ]
+SQL: select ny from tb_wedlock where name='壬寅' [ RunTime:0.002517s ]
+SQL: select ny from tb_wedlock where name='癸酉' [ RunTime:0.001242s ]
+SQL: select ny from tb_wedlock where name='丁巳' [ RunTime:0.001683s ]
+SQL: select ren from tb_shishen where id=10 [ RunTime:0.000508s ]
+SQL: select ren from tb_shishen where id=10 [ RunTime:0.000522s ]
+SQL: select ding from tb_shishen where id=10 [ RunTime:0.000368s ]
+SQL: select shen from tb_dizhi_shishen where id=10 [ RunTime:0.000471s ]
+SQL: select yin from tb_dizhi_shishen where id=10 [ RunTime:0.000440s ]
+SQL: select you from tb_dizhi_shishen where id=10 [ RunTime:0.000368s ]
+SQL: select si from tb_dizhi_shishen where id=10 [ RunTime:0.000418s ]
+SQL: select shen,yin,you,si from tb_dizhi_shishen where id=11 [ RunTime:0.000516s ]
+SQL: select name from tb_bz_wangshuai where gui='申' [ RunTime:0.000563s ]
+SQL: select name from tb_bz_wangshuai where gui='寅' [ RunTime:0.000535s ]
+SQL: select name from tb_bz_wangshuai where gui='酉' [ RunTime:0.000496s ]
+SQL: select name from tb_bz_wangshuai where gui='巳' [ RunTime:0.000560s ]
+SQL: select gui from tb_shishen where id=10 [ RunTime:0.000528s ]
+SQL: select jia from tb_shishen where id=10 [ RunTime:0.000518s ]
+SQL: select yi from tb_shishen where id=10 [ RunTime:0.000476s ]
+SQL: select bing from tb_shishen where id=10 [ RunTime:0.000490s ]
+SQL: select ding from tb_shishen where id=10 [ RunTime:0.000515s ]
+SQL: select wu from tb_shishen where id=10 [ RunTime:0.000504s ]
+SQL: select ji from tb_shishen where id=10 [ RunTime:0.000487s ]
+SQL: select geng from tb_shishen where id=10 [ RunTime:0.000581s ]
+SQL: select * from tb_wuxingju where id=24 [ RunTime:0.000940s ]
+SQL: select zwei from tb_zhuxingmwsx where id=5 [ RunTime:0.000729s ]
+SQL: select lzhen from tb_zhuxingmwsx where id=9 [ RunTime:0.000480s ]
+SQL: select ttong from tb_zhuxingmwsx where id=0 [ RunTime:0.000505s ]
+SQL: select wuqu from tb_zhuxingmwsx where id=1 [ RunTime:0.000484s ]
+SQL: select tyang from tb_zhuxingmwsx where id=2 [ RunTime:0.000470s ]
+SQL: select tji from tb_zhuxingmwsx where id=4 [ RunTime:0.000461s ]
+SQL: select tfu from tb_zhuxingmwsx where id=7 [ RunTime:0.000512s ]
+SQL: select tyin from tb_zhuxingmwsx where id=8 [ RunTime:0.000504s ]
+SQL: select tlang from tb_zhuxingmwsx where id=9 [ RunTime:0.000481s ]
+SQL: select jmen from tb_zhuxingmwsx where id=10 [ RunTime:0.000483s ]
+SQL: select txiang from tb_zhuxingmwsx where id=11 [ RunTime:0.000495s ]
+SQL: select tliang from tb_zhuxingmwsx where id=0 [ RunTime:0.000747s ]
+SQL: select qsha from tb_zhuxingmwsx where id=1 [ RunTime:0.000510s ]
+SQL: select pjun from tb_zhuxingmwsx where id=5 [ RunTime:0.000482s ]
+SQL: select * from tb_shengyuezx where id=1 [ RunTime:0.000555s ]
+NOTIC: [8] Undefined offset: 8 F:\php\bazipaipan\Application\Home\Common\function.php 第 482 行.
+NOTIC: [8] Undefined offset: 0 F:\php\bazipaipan\Application\Home\Common\function.php 第 484 行.
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 486 行.
+NOTIC: [8] Undefined offset: 11 F:\php\bazipaipan\Application\Home\Common\function.php 第 488 行.
+NOTIC: [8] Undefined offset: 3 F:\php\bazipaipan\Application\Home\Common\function.php 第 492 行.
+SQL: select * from tb_shengnianzx where id=9 [ RunTime:0.000600s ]
+NOTIC: [8] Undefined offset: 0 F:\php\bazipaipan\Application\Home\Common\function.php 第 500 行.
+NOTIC: [8] Undefined offset: 8 F:\php\bazipaipan\Application\Home\Common\function.php 第 502 行.
+NOTIC: [8] Undefined offset: 3 F:\php\bazipaipan\Application\Home\Common\function.php 第 504 行.
+NOTIC: [8] Undefined offset: 5 F:\php\bazipaipan\Application\Home\Common\function.php 第 506 行.
+NOTIC: [8] Undefined offset: 10 F:\php\bazipaipan\Application\Home\Common\function.php 第 508 行.
+NOTIC: [8] Undefined offset: 9 F:\php\bazipaipan\Application\Home\Common\function.php 第 512 行.
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 516 行.
+NOTIC: [8] Undefined offset: 1 F:\php\bazipaipan\Application\Home\Common\function.php 第 518 行.
+NOTIC: [8] Undefined offset: 2 F:\php\bazipaipan\Application\Home\Common\function.php 第 520 行.
+SQL: select * from tb_shixizx where hour=10 [ RunTime:0.000539s ]
+SQL: select wchang from tb_zhuxingmwsx where id=3 [ RunTime:0.000533s ]
+SQL: select wqu from tb_zhuxingmwsx where id=7 [ RunTime:0.000631s ]
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 542 行.
+NOTIC: [8] Undefined offset: 4 F:\php\bazipaipan\Application\Home\Common\function.php 第 544 行.
+NOTIC: [8] Undefined offset: 2 F:\php\bazipaipan\Application\Home\Common\function.php 第 546 行.
+NOTIC: [8] Undefined offset: 9 F:\php\bazipaipan\Application\Home\Common\function.php 第 548 行.
+NOTIC: [8] Undefined offset: 5 F:\php\bazipaipan\Application\Home\Common\function.php 第 550 行.
+SQL: select * from tb_shengniangx where id=9 [ RunTime:0.000572s ]
+SQL: select qyang from tb_zhuxingmwsx where id=10 [ RunTime:0.000481s ]
+SQL: select tluo from tb_zhuxingmwsx where id=8 [ RunTime:0.000582s ]
+NOTIC: [8] Undefined offset: 8 F:\php\bazipaipan\Application\Home\Common\function.php 第 561 行.
+NOTIC: [8] Undefined offset: 3 F:\php\bazipaipan\Application\Home\Common\function.php 第 563 行.
+NOTIC: [8] Undefined offset: 1 F:\php\bazipaipan\Application\Home\Common\function.php 第 565 行.
+NOTIC: [8] Undefined offset: 9 F:\php\bazipaipan\Application\Home\Common\function.php 第 567 行.
+NOTIC: [8] Undefined offset: 4 F:\php\bazipaipan\Application\Home\Common\function.php 第 569 行.
+NOTIC: [8] Undefined index: zkong F:\php\bazipaipan\Application\Home\Common\function.php 第 572 行.
+NOTIC: [8] Undefined offset: 0 F:\php\bazipaipan\Application\Home\Common\function.php 第 573 行.
+NOTIC: [8] Undefined index: fkong F:\php\bazipaipan\Application\Home\Common\function.php 第 574 行.
+SQL: select szc from tb_huoxing where id=10 [ RunTime:0.000880s ]
+SQL: select hxing from tb_zhuxingmwsx where id=9 [ RunTime:0.000511s ]
+SQL: select szc from tb_lingxing where id=10 [ RunTime:0.000547s ]
+SQL: select lxing from tb_zhuxingmwsx where id=5 [ RunTime:0.000504s ]
+NOTIC: [8] Undefined offset: 5 F:\php\bazipaipan\Application\Home\Common\function.php 第 744 行.
+NOTIC: [8] Undefined offset: 1 F:\php\bazipaipan\Application\Home\Common\function.php 第 752 行.
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 759 行.
+NOTIC: [8] Undefined offset: 4 F:\php\bazipaipan\Application\Home\Common\function.php 第 781 行.
+NOTIC: [8] Undefined offset: 2 F:\php\bazipaipan\Application\Home\Common\function.php 第 784 行.
+SQL: select * from tb_sihua where id=9 [ RunTime:0.000497s ]
+NOTIC: [8] Undefined offset: 6 F:\php\bazipaipan\Application\Home\Common\function.php 第 801 行.
+NOTIC: [8] Undefined offset: 11 F:\php\bazipaipan\Application\Home\Common\function.php 第 817 行.
+SQL: select * from tb_wedlock where name='癸酉' [ RunTime:0.000968s ]
+NOTIC: [8] Undefined offset: 9 F:\php\bazipaipan\Application\Home\Common\function.php 第 879 行.
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 884 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001409s ]
+
+[ 2018-01-04T17:43:28+08:00 ] ::1 /bazipaipan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [8] Undefined index: uid F:\php\bazipaipan\Application\Home\Controller\IndexController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003692s ]
+
+[ 2018-01-04T17:43:35+08:00 ] ::1 /bazipaipan/index.php/Home/Index/pp_msg?arrnumber=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [8] Undefined index: birthday F:\php\bazipaipan\Application\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: select ny from tb_wedlock where name='壬申' [ RunTime:0.085174s ]
+SQL: select ny from tb_wedlock where name='壬寅' [ RunTime:0.001060s ]
+SQL: select ny from tb_wedlock where name='癸酉' [ RunTime:0.000816s ]
+SQL: select ny from tb_wedlock where name='丁巳' [ RunTime:0.000781s ]
+SQL: select ren from tb_shishen where id=10 [ RunTime:0.013091s ]
+SQL: select ren from tb_shishen where id=10 [ RunTime:0.000888s ]
+SQL: select ding from tb_shishen where id=10 [ RunTime:0.000537s ]
+SQL: select shen from tb_dizhi_shishen where id=10 [ RunTime:0.039926s ]
+SQL: select yin from tb_dizhi_shishen where id=10 [ RunTime:0.000510s ]
+SQL: select you from tb_dizhi_shishen where id=10 [ RunTime:0.000511s ]
+SQL: select si from tb_dizhi_shishen where id=10 [ RunTime:0.000507s ]
+SQL: select shen,yin,you,si from tb_dizhi_shishen where id=11 [ RunTime:0.000514s ]
+SQL: select name from tb_bz_wangshuai where gui='申' [ RunTime:0.019239s ]
+SQL: select name from tb_bz_wangshuai where gui='寅' [ RunTime:0.000421s ]
+SQL: select name from tb_bz_wangshuai where gui='酉' [ RunTime:0.000439s ]
+SQL: select name from tb_bz_wangshuai where gui='巳' [ RunTime:0.000371s ]
+SQL: select gui from tb_shishen where id=10 [ RunTime:0.000583s ]
+SQL: select jia from tb_shishen where id=10 [ RunTime:0.000515s ]
+SQL: select yi from tb_shishen where id=10 [ RunTime:0.000542s ]
+SQL: select bing from tb_shishen where id=10 [ RunTime:0.000487s ]
+SQL: select ding from tb_shishen where id=10 [ RunTime:0.000459s ]
+SQL: select wu from tb_shishen where id=10 [ RunTime:0.000479s ]
+SQL: select ji from tb_shishen where id=10 [ RunTime:0.000578s ]
+SQL: select geng from tb_shishen where id=10 [ RunTime:0.000618s ]
+SQL: select * from tb_wuxingju where id=24 [ RunTime:0.023244s ]
+SQL: select zwei from tb_zhuxingmwsx where id=5 [ RunTime:0.011067s ]
+SQL: select lzhen from tb_zhuxingmwsx where id=9 [ RunTime:0.000944s ]
+SQL: select ttong from tb_zhuxingmwsx where id=0 [ RunTime:0.000562s ]
+SQL: select wuqu from tb_zhuxingmwsx where id=1 [ RunTime:0.000513s ]
+SQL: select tyang from tb_zhuxingmwsx where id=2 [ RunTime:0.000501s ]
+SQL: select tji from tb_zhuxingmwsx where id=4 [ RunTime:0.000786s ]
+SQL: select tfu from tb_zhuxingmwsx where id=7 [ RunTime:0.000613s ]
+SQL: select tyin from tb_zhuxingmwsx where id=8 [ RunTime:0.000484s ]
+SQL: select tlang from tb_zhuxingmwsx where id=9 [ RunTime:0.000460s ]
+SQL: select jmen from tb_zhuxingmwsx where id=10 [ RunTime:0.000497s ]
+SQL: select txiang from tb_zhuxingmwsx where id=11 [ RunTime:0.000490s ]
+SQL: select tliang from tb_zhuxingmwsx where id=0 [ RunTime:0.000840s ]
+SQL: select qsha from tb_zhuxingmwsx where id=1 [ RunTime:0.000804s ]
+SQL: select pjun from tb_zhuxingmwsx where id=5 [ RunTime:0.000733s ]
+SQL: select * from tb_shengyuezx where id=1 [ RunTime:0.037726s ]
+NOTIC: [8] Undefined offset: 8 F:\php\bazipaipan\Application\Home\Common\function.php 第 482 行.
+NOTIC: [8] Undefined offset: 0 F:\php\bazipaipan\Application\Home\Common\function.php 第 484 行.
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 486 行.
+NOTIC: [8] Undefined offset: 11 F:\php\bazipaipan\Application\Home\Common\function.php 第 488 行.
+NOTIC: [8] Undefined offset: 3 F:\php\bazipaipan\Application\Home\Common\function.php 第 492 行.
+SQL: select * from tb_shengnianzx where id=9 [ RunTime:0.023808s ]
+NOTIC: [8] Undefined offset: 0 F:\php\bazipaipan\Application\Home\Common\function.php 第 500 行.
+NOTIC: [8] Undefined offset: 8 F:\php\bazipaipan\Application\Home\Common\function.php 第 502 行.
+NOTIC: [8] Undefined offset: 3 F:\php\bazipaipan\Application\Home\Common\function.php 第 504 行.
+NOTIC: [8] Undefined offset: 5 F:\php\bazipaipan\Application\Home\Common\function.php 第 506 行.
+NOTIC: [8] Undefined offset: 10 F:\php\bazipaipan\Application\Home\Common\function.php 第 508 行.
+NOTIC: [8] Undefined offset: 9 F:\php\bazipaipan\Application\Home\Common\function.php 第 512 行.
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 516 行.
+NOTIC: [8] Undefined offset: 1 F:\php\bazipaipan\Application\Home\Common\function.php 第 518 行.
+NOTIC: [8] Undefined offset: 2 F:\php\bazipaipan\Application\Home\Common\function.php 第 520 行.
+SQL: select * from tb_shixizx where hour=10 [ RunTime:0.020294s ]
+SQL: select wchang from tb_zhuxingmwsx where id=3 [ RunTime:0.000471s ]
+SQL: select wqu from tb_zhuxingmwsx where id=7 [ RunTime:0.000463s ]
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 542 行.
+NOTIC: [8] Undefined offset: 4 F:\php\bazipaipan\Application\Home\Common\function.php 第 544 行.
+NOTIC: [8] Undefined offset: 2 F:\php\bazipaipan\Application\Home\Common\function.php 第 546 行.
+NOTIC: [8] Undefined offset: 9 F:\php\bazipaipan\Application\Home\Common\function.php 第 548 行.
+NOTIC: [8] Undefined offset: 5 F:\php\bazipaipan\Application\Home\Common\function.php 第 550 行.
+SQL: select * from tb_shengniangx where id=9 [ RunTime:0.016029s ]
+SQL: select qyang from tb_zhuxingmwsx where id=10 [ RunTime:0.000701s ]
+SQL: select tluo from tb_zhuxingmwsx where id=8 [ RunTime:0.000463s ]
+NOTIC: [8] Undefined offset: 8 F:\php\bazipaipan\Application\Home\Common\function.php 第 561 行.
+NOTIC: [8] Undefined offset: 3 F:\php\bazipaipan\Application\Home\Common\function.php 第 563 行.
+NOTIC: [8] Undefined offset: 1 F:\php\bazipaipan\Application\Home\Common\function.php 第 565 行.
+NOTIC: [8] Undefined offset: 9 F:\php\bazipaipan\Application\Home\Common\function.php 第 567 行.
+NOTIC: [8] Undefined offset: 4 F:\php\bazipaipan\Application\Home\Common\function.php 第 569 行.
+NOTIC: [8] Undefined index: zkong F:\php\bazipaipan\Application\Home\Common\function.php 第 572 行.
+NOTIC: [8] Undefined offset: 0 F:\php\bazipaipan\Application\Home\Common\function.php 第 573 行.
+NOTIC: [8] Undefined index: fkong F:\php\bazipaipan\Application\Home\Common\function.php 第 574 行.
+SQL: select szc from tb_huoxing where id=10 [ RunTime:0.010768s ]
+SQL: select hxing from tb_zhuxingmwsx where id=9 [ RunTime:0.000556s ]
+SQL: select szc from tb_lingxing where id=10 [ RunTime:0.009009s ]
+SQL: select lxing from tb_zhuxingmwsx where id=5 [ RunTime:0.000645s ]
+NOTIC: [8] Undefined offset: 5 F:\php\bazipaipan\Application\Home\Common\function.php 第 744 行.
+NOTIC: [8] Undefined offset: 1 F:\php\bazipaipan\Application\Home\Common\function.php 第 752 行.
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 759 行.
+NOTIC: [8] Undefined offset: 4 F:\php\bazipaipan\Application\Home\Common\function.php 第 781 行.
+NOTIC: [8] Undefined offset: 2 F:\php\bazipaipan\Application\Home\Common\function.php 第 784 行.
+SQL: select * from tb_sihua where id=9 [ RunTime:0.002415s ]
+NOTIC: [8] Undefined offset: 6 F:\php\bazipaipan\Application\Home\Common\function.php 第 801 行.
+NOTIC: [8] Undefined offset: 11 F:\php\bazipaipan\Application\Home\Common\function.php 第 817 行.
+SQL: select * from tb_wedlock where name='癸酉' [ RunTime:0.001319s ]
+NOTIC: [8] Undefined offset: 9 F:\php\bazipaipan\Application\Home\Common\function.php 第 879 行.
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 884 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002401s ]
+
+[ 2018-01-04T17:43:36+08:00 ] ::1 /bazipaipan/index.php/Home/Index/generateImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002571s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2018-01-04T17:43:37+08:00 ] ::1 /bazipaipan/index.php/Home/Index/bz_fenxi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002273s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001601s ]
+
+[ 2018-01-04T17:43:39+08:00 ] ::1 /bazipaipan/index.php/Home/Index/pp_msg?arrnumber=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005844s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [8] Undefined index: birthday F:\php\bazipaipan\Application\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: select ny from tb_wedlock where name='壬申' [ RunTime:0.000887s ]
+SQL: select ny from tb_wedlock where name='壬寅' [ RunTime:0.000849s ]
+SQL: select ny from tb_wedlock where name='癸酉' [ RunTime:0.000880s ]
+SQL: select ny from tb_wedlock where name='丁巳' [ RunTime:0.001091s ]
+SQL: select ren from tb_shishen where id=10 [ RunTime:0.000608s ]
+SQL: select ren from tb_shishen where id=10 [ RunTime:0.000496s ]
+SQL: select ding from tb_shishen where id=10 [ RunTime:0.000504s ]
+SQL: select shen from tb_dizhi_shishen where id=10 [ RunTime:0.000502s ]
+SQL: select yin from tb_dizhi_shishen where id=10 [ RunTime:0.000505s ]
+SQL: select you from tb_dizhi_shishen where id=10 [ RunTime:0.000488s ]
+SQL: select si from tb_dizhi_shishen where id=10 [ RunTime:0.000507s ]
+SQL: select shen,yin,you,si from tb_dizhi_shishen where id=11 [ RunTime:0.000791s ]
+SQL: select name from tb_bz_wangshuai where gui='申' [ RunTime:0.000789s ]
+SQL: select name from tb_bz_wangshuai where gui='寅' [ RunTime:0.000547s ]
+SQL: select name from tb_bz_wangshuai where gui='酉' [ RunTime:0.000544s ]
+SQL: select name from tb_bz_wangshuai where gui='巳' [ RunTime:0.000498s ]
+SQL: select gui from tb_shishen where id=10 [ RunTime:0.002158s ]
+SQL: select jia from tb_shishen where id=10 [ RunTime:0.000743s ]
+SQL: select yi from tb_shishen where id=10 [ RunTime:0.000627s ]
+SQL: select bing from tb_shishen where id=10 [ RunTime:0.000468s ]
+SQL: select ding from tb_shishen where id=10 [ RunTime:0.000726s ]
+SQL: select wu from tb_shishen where id=10 [ RunTime:0.000494s ]
+SQL: select ji from tb_shishen where id=10 [ RunTime:0.000458s ]
+SQL: select geng from tb_shishen where id=10 [ RunTime:0.000452s ]
+SQL: select * from tb_wuxingju where id=24 [ RunTime:0.000495s ]
+SQL: select zwei from tb_zhuxingmwsx where id=5 [ RunTime:0.000454s ]
+SQL: select lzhen from tb_zhuxingmwsx where id=9 [ RunTime:0.000480s ]
+SQL: select ttong from tb_zhuxingmwsx where id=0 [ RunTime:0.000438s ]
+SQL: select wuqu from tb_zhuxingmwsx where id=1 [ RunTime:0.000446s ]
+SQL: select tyang from tb_zhuxingmwsx where id=2 [ RunTime:0.000448s ]
+SQL: select tji from tb_zhuxingmwsx where id=4 [ RunTime:0.000447s ]
+SQL: select tfu from tb_zhuxingmwsx where id=7 [ RunTime:0.000529s ]
+SQL: select tyin from tb_zhuxingmwsx where id=8 [ RunTime:0.000532s ]
+SQL: select tlang from tb_zhuxingmwsx where id=9 [ RunTime:0.000500s ]
+SQL: select jmen from tb_zhuxingmwsx where id=10 [ RunTime:0.000585s ]
+SQL: select txiang from tb_zhuxingmwsx where id=11 [ RunTime:0.000482s ]
+SQL: select tliang from tb_zhuxingmwsx where id=0 [ RunTime:0.000652s ]
+SQL: select qsha from tb_zhuxingmwsx where id=1 [ RunTime:0.000501s ]
+SQL: select pjun from tb_zhuxingmwsx where id=5 [ RunTime:0.000666s ]
+SQL: select * from tb_shengyuezx where id=1 [ RunTime:0.002126s ]
+NOTIC: [8] Undefined offset: 8 F:\php\bazipaipan\Application\Home\Common\function.php 第 482 行.
+NOTIC: [8] Undefined offset: 0 F:\php\bazipaipan\Application\Home\Common\function.php 第 484 行.
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 486 行.
+NOTIC: [8] Undefined offset: 11 F:\php\bazipaipan\Application\Home\Common\function.php 第 488 行.
+NOTIC: [8] Undefined offset: 3 F:\php\bazipaipan\Application\Home\Common\function.php 第 492 行.
+SQL: select * from tb_shengnianzx where id=9 [ RunTime:0.000962s ]
+NOTIC: [8] Undefined offset: 0 F:\php\bazipaipan\Application\Home\Common\function.php 第 500 行.
+NOTIC: [8] Undefined offset: 8 F:\php\bazipaipan\Application\Home\Common\function.php 第 502 行.
+NOTIC: [8] Undefined offset: 3 F:\php\bazipaipan\Application\Home\Common\function.php 第 504 行.
+NOTIC: [8] Undefined offset: 5 F:\php\bazipaipan\Application\Home\Common\function.php 第 506 行.
+NOTIC: [8] Undefined offset: 10 F:\php\bazipaipan\Application\Home\Common\function.php 第 508 行.
+NOTIC: [8] Undefined offset: 9 F:\php\bazipaipan\Application\Home\Common\function.php 第 512 行.
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 516 行.
+NOTIC: [8] Undefined offset: 1 F:\php\bazipaipan\Application\Home\Common\function.php 第 518 行.
+NOTIC: [8] Undefined offset: 2 F:\php\bazipaipan\Application\Home\Common\function.php 第 520 行.
+SQL: select * from tb_shixizx where hour=10 [ RunTime:0.000576s ]
+SQL: select wchang from tb_zhuxingmwsx where id=3 [ RunTime:0.000505s ]
+SQL: select wqu from tb_zhuxingmwsx where id=7 [ RunTime:0.000511s ]
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 542 行.
+NOTIC: [8] Undefined offset: 4 F:\php\bazipaipan\Application\Home\Common\function.php 第 544 行.
+NOTIC: [8] Undefined offset: 2 F:\php\bazipaipan\Application\Home\Common\function.php 第 546 行.
+NOTIC: [8] Undefined offset: 9 F:\php\bazipaipan\Application\Home\Common\function.php 第 548 行.
+NOTIC: [8] Undefined offset: 5 F:\php\bazipaipan\Application\Home\Common\function.php 第 550 行.
+SQL: select * from tb_shengniangx where id=9 [ RunTime:0.000526s ]
+SQL: select qyang from tb_zhuxingmwsx where id=10 [ RunTime:0.000486s ]
+SQL: select tluo from tb_zhuxingmwsx where id=8 [ RunTime:0.000454s ]
+NOTIC: [8] Undefined offset: 8 F:\php\bazipaipan\Application\Home\Common\function.php 第 561 行.
+NOTIC: [8] Undefined offset: 3 F:\php\bazipaipan\Application\Home\Common\function.php 第 563 行.
+NOTIC: [8] Undefined offset: 1 F:\php\bazipaipan\Application\Home\Common\function.php 第 565 行.
+NOTIC: [8] Undefined offset: 9 F:\php\bazipaipan\Application\Home\Common\function.php 第 567 行.
+NOTIC: [8] Undefined offset: 4 F:\php\bazipaipan\Application\Home\Common\function.php 第 569 行.
+NOTIC: [8] Undefined index: zkong F:\php\bazipaipan\Application\Home\Common\function.php 第 572 行.
+NOTIC: [8] Undefined offset: 0 F:\php\bazipaipan\Application\Home\Common\function.php 第 573 行.
+NOTIC: [8] Undefined index: fkong F:\php\bazipaipan\Application\Home\Common\function.php 第 574 行.
+SQL: select szc from tb_huoxing where id=10 [ RunTime:0.000531s ]
+SQL: select hxing from tb_zhuxingmwsx where id=9 [ RunTime:0.000461s ]
+SQL: select szc from tb_lingxing where id=10 [ RunTime:0.000443s ]
+SQL: select lxing from tb_zhuxingmwsx where id=5 [ RunTime:0.000458s ]
+NOTIC: [8] Undefined offset: 5 F:\php\bazipaipan\Application\Home\Common\function.php 第 744 行.
+NOTIC: [8] Undefined offset: 1 F:\php\bazipaipan\Application\Home\Common\function.php 第 752 行.
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 759 行.
+NOTIC: [8] Undefined offset: 4 F:\php\bazipaipan\Application\Home\Common\function.php 第 781 行.
+NOTIC: [8] Undefined offset: 2 F:\php\bazipaipan\Application\Home\Common\function.php 第 784 行.
+SQL: select * from tb_sihua where id=9 [ RunTime:0.000498s ]
+NOTIC: [8] Undefined offset: 6 F:\php\bazipaipan\Application\Home\Common\function.php 第 801 行.
+NOTIC: [8] Undefined offset: 11 F:\php\bazipaipan\Application\Home\Common\function.php 第 817 行.
+SQL: select * from tb_wedlock where name='癸酉' [ RunTime:0.001038s ]
+NOTIC: [8] Undefined offset: 9 F:\php\bazipaipan\Application\Home\Common\function.php 第 879 行.
+NOTIC: [8] Undefined offset: 7 F:\php\bazipaipan\Application\Home\Common\function.php 第 884 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000514s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001766s ]
+
+[ 2018-01-04T17:43:45+08:00 ] ::1 /bazipaipan/index.php/Home/Index/bz_fenxi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2018-01-04T17:43:54+08:00 ] ::1 /bazipaipan/index.php/Home/Index/bazi_my
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: select * from sm_h5test where place='123456my8560' and status=1 [ RunTime:0.011146s ]
+SQL: select * from sm_h5test where place='123456my8560' [ RunTime:0.000719s ]
+SQL: insert into sm_h5test (ordernum,price,username,typeid,sex,status,datetype,year,month,day,hour,paykind,place,date_remark,ip)values(
+                                              'PPMY201817814174352','68','测试',20,1,-1,0,1992,02,27,10,-1,'123456my8560','123456','::1') [ RunTime:0.065555s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given F:\php\bazipaipan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 106 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001434s ]
+
+[ 2018-01-04T17:56:13+08:00 ] ::1 /bazipaipan/index.php/Home/Index/shiye_fx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002145s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: select * from sm_h5test where place='123456sy8560' and status=1 [ RunTime:0.001546s ]
+SQL: select * from sm_h5test where place='123456sy8560' [ RunTime:0.001242s ]
+SQL: insert into sm_h5test (ordernum,price,username,typeid,sex,status,datetype,year,month,day,hour,paykind,place,date_remark,ip)values(
+                                              'PPSY201856314175611','68','测试',20,1,-1,0,1992,02,27,10,-1,'123456sy8560','123456','::1') [ RunTime:0.027621s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given F:\php\bazipaipan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 106 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002474s ]
+
+[ 2018-01-04T17:56:17+08:00 ] ::1 /bazipaipan/index.php/Home/Zhifu/payshiye
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004230s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001396s ]
+
+[ 2018-01-04T17:56:29+08:00 ] ::1 /bazipaipan/index.php/Home/Index/bazi_my
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: select * from sm_h5test where place='123456my8560' and status=1 [ RunTime:0.006329s ]
+SQL: select * from sm_h5test where place='123456my8560' [ RunTime:0.006873s ]
+SQL: update sm_h5test set ordernum='PPMY201899170175628' where place='123456my8560' [ RunTime:0.036497s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given F:\php\bazipaipan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 106 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002305s ]
+
+[ 2018-01-04T17:56:33+08:00 ] ::1 /bazipaipan/index.php/Home/Zhifu/paymingyun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002423s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\bazipaipan\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001739s ]
+

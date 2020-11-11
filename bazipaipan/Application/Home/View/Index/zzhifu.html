@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <mate name="flexibel" content="initial-drl=1"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <title>支付页</title>
+    <script> (function(designWidth, maxWidth) {
+            var doc = document,
+            win = window,
+            docEl = doc.documentElement,
+            remStyle = document.createElement("style"),
+            tid;
+
+            function refreshRem() {
+                var width = docEl.getBoundingClientRect().width;
+                maxWidth = maxWidth || 540;
+                width>maxWidth && (width=maxWidth);
+                var rem = width * 100 / designWidth;
+                remStyle.innerHTML = 'html{font-size:' + rem + 'px;}';
+            }
+
+            if (docEl.firstElementChild) {
+                docEl.firstElementChild.appendChild(remStyle);
+            } else {
+                var wrap = doc.createElement("div");
+                wrap.appendChild(remStyle);
+                doc.write(wrap.innerHTML);
+                wrap = null;
+            }
+            //要等 wiewport 设置好后才能执行 refreshRem，不然 refreshRem 会执行2次；
+            refreshRem();
+
+            win.addEventListener("resize", function() {
+                clearTimeout(tid); //防止执行两次
+                tid = setTimeout(refreshRem, 300);
+            }, false);
+
+            win.addEventListener("pageshow", function(e) {
+                if (e.persisted) { // 浏览器后退的时候重新计算
+                    clearTimeout(tid);
+                    tid = setTimeout(refreshRem, 300);
+                }
+            }, false);
+
+            if (doc.readyState === "complete") {
+                doc.body.style.fontSize = "16px";
+            } else {
+                doc.addEventListener("DOMContentLoaded", function(e) {
+                    doc.body.style.fontSize = "16px";
+                }, false);
+            }
+        })(750, 750);</script>
+    <!--[if lt IE 9]>  
+        <script src="http://cdn.bootcss.com/html5shiv/r29/html5.js"></script>
+        <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>    
+    <![endif]-->
+    <style>
+    *{margin:0;padding:0;}
+    .container{
+        background: #fff;
+        width:100%;
+        height:auto;
+        min-height: 100%;
+        position:relative;
+        overflow:hidden;
+        margin:0 auto;
+        color: #333;
+    }
+    .wrapper{
+        margin: 0.3rem;
+    }
+    .pay-desc p{
+        margin-bottom: 0.2rem;
+        color: #a5a5a5;
+    }
+    .btn-group{list-style: none;}
+    .btn-group a{
+        margin: 0.2rem 0;
+        display: block;
+        background: #E79D54;
+        height: 0.8rem;
+        line-height: 0.8rem;
+        text-align: center;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        color: #fff;
+        text-decoration: none;
+    }
+    .btn-group a.border-yellow{
+        background: #fff;
+        border: 1px solid #E79D54;
+        color: #E79D54;
+    }
+    .icon-linghit{
+        width:1.4rem;
+        margin: 0 auto;
+    }
+    .icon-linghit img{
+        display: block;
+        width:100%;
+        margin-bottom: 0.3rem;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="wrapper">
+        <div class="icon-linghit">
+            <img src="__PUBLIC__/images/public/zhiming_icon.png" alt="">
+        </div>
+        <div class="pay-desc">
+            <p>1.如果未完成付款，请点击 "继续支付";</p>
+            <p>2.如果你已完成，請点击 "已完成付款";</p>
+        </div>
+        <ul class="btn-group">
+            <li>
+                <a id="jxzhifu">
+                    继续支付
+                </a>
+            </li>
+            <li>
+                <a id="yellow"  class="border-yellow">
+                    已完成付款
+                </a>
+            </li>
+        </ul>
+    </div>
+        <script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+        <script>
+            var value = sessionStorage.getItem("chufa");
+            var orderid='<!--{$Think.cookie.orderid}-->';
+            $("#yellow").on('click',function(){
+                if(value==2){
+                }else{
+                    $.getJSON("<!--{:U('Index/select_pay','',false)}-->",{orderid:orderid},function(data){
+                        if(data==1){
+                            location.href="<!--{:U('Index/bz_fenxi','',false)}-->";
+                        }else{
+                            alert("您还未完成付款");
+                            setTimeout(function(){
+                                javascript:location.reload();
+                            },1500);
+                        }
+                    });
+                }
+            });
+            var controller='<!--{$Think.cookie.orderidnum}-->';
+            $("#jxzhifu").on('click',function(){
+                if(value==2){
+                }else{
+                    location.href="<!--{:U('Zhifu/paywxshiye','',false)}-->";
+                }
+            });
+
+            setTimeout(function(){
+                if(value==2){
+//                    javascript:location.reload();
+                    setTimeout(function(){
+                        sessionStorage.setItem("chufa", "123");
+                            location.href="<!--{:U('Zhifu/paywxshiye','',false)}-->";
+                    },500);
+                }
+            },50);
+            setTimeout(function(){
+                if(value==123){
+                    javascript:location.reload();//刷新
+                    sessionStorage.setItem("chufa", "1234");
+                }
+            },10000);
+
+            setTimeout(function(){
+                if(value==2){
+                    javascript:location.reload();//刷新
+                    sessionStorage.setItem("chufa", "123");
+                }
+            },10000);
+
+        </script>
+</div>
+</body>
+</html>

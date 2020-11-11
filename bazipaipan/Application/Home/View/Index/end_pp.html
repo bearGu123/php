@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <title>八字排盘</title>
+    <script> (function(designWidth, maxWidth) {
+            var doc = document,
+            win = window,
+            docEl = doc.documentElement,
+            remStyle = document.createElement("style"),
+            tid;
+
+            function refreshRem() {
+                var width = docEl.getBoundingClientRect().width;
+                maxWidth = maxWidth || 540;
+                width>maxWidth && (width=maxWidth);
+                var rem = width * 100 / designWidth;
+                remStyle.innerHTML = 'html{font-size:' + rem + 'px;}';
+            }
+
+            if (docEl.firstElementChild) {
+                docEl.firstElementChild.appendChild(remStyle);
+            } else {
+                var wrap = doc.createElement("div");
+                wrap.appendChild(remStyle);
+                doc.write(wrap.innerHTML);
+                wrap = null;
+            }
+            //要等 wiewport 设置好后才能执行 refreshRem，不然 refreshRem 会执行2次；
+            refreshRem();
+
+            win.addEventListener("resize", function() {
+                clearTimeout(tid); //防止执行两次
+                tid = setTimeout(refreshRem, 300);
+            }, false);
+
+            win.addEventListener("pageshow", function(e) {
+                if (e.persisted) { // 浏览器后退的时候重新计算
+                    clearTimeout(tid);
+                    tid = setTimeout(refreshRem, 300);
+                }
+            }, false);
+
+            if (doc.readyState === "complete") {
+                doc.body.style.fontSize = "16px";
+            } else {
+                doc.addEventListener("DOMContentLoaded", function(e) {
+                    doc.body.style.fontSize = "16px";
+                }, false);
+            }
+        })(750, 750);</script>
+    <!--[if lt IE 9]>  
+        <script src="http://cdn.bootcss.com/html5shiv/r29/html5.js"></script>
+        <script src="https://cdn.bootcss.com/respond.s/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/html2canvas.js"></script>
+    <script  type="text/javascript" >
+//        android.askques("{\"askUserRq\":'<!--{$Think.cookie.askUserRq}-->'," +
+//        "\"askUserSex\":'<!--{$Think.cookie.zsex}-->'," +
+//        "\"askUserName\":'<!--{$Think.cookie.znickname}-->'," +
+//        "\"city\":'<!--{$Think.cookie.placebirth}-->'," +
+//        "\"asktype\":'12'," +
+//        "\"typename\":'八字命盘'," +
+//        "\"photourl \":'<!--{$Think.cookie.imgurl}-->'}");
+
+        $(document).ready(function(){
+                event.preventDefault();
+                html2canvas($('.cent'), {
+                    allowTaint: true,
+                    taintTest: false,
+                    onrendered: function(canvas) {
+                        canvas.id = "mycanvas";
+                        //document.body.appendChild(canvas);
+                        //生成base64图片数据
+                        var dataUrl = canvas.toDataURL();
+                        var newImg = document.createElement("img");
+                        newImg.src =  dataUrl;
+                        document.body.appendChild(newImg);
+                        $('.cent').css('display','none');
+                    },
+            });
+
+        });
+
+    </script>
+    <style>
+        *{margin:0;padding:0;}
+        body{color:#333333;font-family: PingFangSC-Medium, sans-serif;}
+        .detail_info{padding:0.3rem 0.4rem 0 0.4rem;list-style: none;font-size:0.32rem;}
+        .detail_info li {height: auto;overflow: hidden;padding-bottom: 0.3rem;}
+        .detail_info .info_head {text-align: left; color: #db4852;width: 12%;}
+        .detail_info .info_heads {width: 22%;text-align: center;}
+        .detail_info span {
+            display: block;
+            width: 22%;
+            float: left;
+            text-align: center;
+        }
+        .detail_info .info_ts {width: 12%;}
+        .if_ul {padding:0 0.4rem;overflow: hidden;list-style: none;font-size:0.32rem;}
+        .main_info li {padding-bottom: 0.3rem;}
+        .main_info li div {width: 37%;}
+        .main_info li div.m_w_bai { width: 100%;}
+        .main_info li .ts_a { width: 100%;}
+        .main_info dl {
+            overflow: hidden;
+            border: 1px solid #db4852;
+            margin:0.1rem;
+            font-size:0.32rem;
+        }
+        .main_info dl dt {
+            float: left;
+            width: 10%;
+            padding: 0.4rem 0.2rem;
+            text-align: center;
+            writing-mode: lr-tb;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+        }
+        .main_info dl dd {float: left;width:90%;}
+        .main_info dl dd .num {height: auto;overflow: hidden;width: 100%;}
+        .main_info dl dd .word {height: auto;overflow: hidden;width: 100%;}
+        .main_info dl dd .num span, .main_info dl dd .word span {
+            border-left: 1px solid #db4852;
+            border-bottom: 1px solid #db4852;
+            box-sizing: border-box;
+            float: left;
+            text-align: center;
+            display: block;
+        }
+        .main_info dl dd .num span {
+            height: 0.7rem;
+            width:calc(100%/8);
+            text-align: center;
+            line-height: 0.7rem;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+        }
+        .main_info dl dd .word span {
+            height: 1.1rem;
+            padding-top:0.1rem;
+            width:calc(100% / 8);
+            color: #333333;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            border-bottom:none;
+        }
+        .base_info span, .main_info dl dd .num, .main_info dl dt, .main_info li div span {color: #db4852;}
+
+        .lis3{display:-webkit-flex;display:flex;align-items: center;}  
+        .ft_left{float:left;width:88%;}
+        .ft_left .flb{width:100%;display: flex;}
+        .ft_left .flb:first-child{padding-bottom: 0.3rem;}
+        .ft_left .flb span{flex-grow: 1;}
+    </style>
+</head>
+<body>
+<section class="cent">
+    <ul class="detail_info">
+        <li>
+            <span class="info_head info_heads info_ts">&nbsp;</span>
+            <span class="info_head info_heads">年柱</span>
+            <span class="info_head info_heads">月柱</span>
+            <span class="info_head info_heads">日柱</span>
+            <span class="info_head info_heads">时柱</span>
+        </li>
+        <li>
+            <span class="info_head">十神</span>
+            <span><!--{$nianzhuss[0]}--></span>
+            <span><!--{$nianzhuss[1]}--></span>
+            <span>命主</span>
+            <span><!--{$nianzhuss[2]}--></span>
+        </li>
+        <li class="lis3">
+            <span class="info_head">八字</span>
+            <div class="ft_left">
+                <p class="flb">
+                    <span><!--{:mb_substr($sizhu[0],0,1,'utf-8')}--></span>
+                    <span><!--{:mb_substr($sizhu[1],0,1,'utf-8')}--></span>
+                    <span><!--{:mb_substr($sizhu[2],0,1,'utf-8')}--></span>
+                    <span><!--{:mb_substr($sizhu[3],0,1,'utf-8')}--></span>
+                </p>
+                <p class="flb">
+                    <span><!--{:mb_substr($sizhu[0],1,1,'utf-8')}--></span>
+                    <span><!--{:mb_substr($sizhu[1],1,1,'utf-8')}--></span>
+                    <span><!--{:mb_substr($sizhu[2],1,1,'utf-8')}--></span>
+                    <span><!--{:mb_substr($sizhu[3],1,1,'utf-8')}--></span>
+                </p>
+            </div>
+        </li>
+        <li>
+            <span class="info_head">藏干</span>
+            <span><!--{$canggan[0]}--></span>
+            <span><!--{$canggan[1]}--></span>
+            <span><!--{$canggan[2]}--></span>
+            <span><!--{$canggan[3]}--></span>
+        </li>
+        <li>
+            <span class="info_head ts-list m_ts_list">支神</span>
+            <span><!--{$zhishen[0]}--></span>
+            <span><!--{$zhishen[1]}--></span>
+            <span><!--{$zhishen[2]}--></span>
+            <span><!--{$zhishen[3]}--></span>
+        </li>
+        <li>
+            <span class="info_head">纳音</span>
+            <span><!--{$sizhuny[0]}--></span>
+            <span><!--{$sizhuny[1]}--></span>
+            <span><!--{$sizhuny[2]}--></span>
+            <span><!--{$sizhuny[3]}--></span>
+        </li>
+        <li>
+            <span class="info_head">地势</span>
+            <span><!--{$bzdishi[0]}--></span>
+            <span><!--{$bzdishi[1]}--></span>
+            <span><!--{$bzdishi[2]}--></span>
+            <span><!--{$bzdishi[3]}--></span>
+        </li>
+    </ul>
+    <div class="main_info">
+        <ul class="if_ul">
+            <li>
+                <div class="m_w_bai"><span>旺相休囚死: </span><!--{$wxsqs}--></div>
+            </li>
+            <li>
+                <div><span>喜用神：</span><!--{$xiys}--></div>
+            </li>
+            <li class="lis3">
+                <div><span>胎元：</span><!--{$taiyuan}--></div>
+                <div><span>日空：</span><!--{$rikong}--></div>
+            </li>
+            <li>
+                <div class="ts_a"><span>起大运：</span>出生后<!--{$dayunx}-->年<!--{$dayuny}-->月起大运</div>
+            </li>
+        </ul>
+        <dl>
+            <dt>大运</dt>
+            <dd>
+                <div class="num">
+                    <span><!--{$dayun+1}--></span>
+                    <span><!--{$dayun+11}--></span>
+                    <span><!--{$dayun+21}--></span>
+                    <span><!--{$dayun+31}--></span>
+                    <span><!--{$dayun+41}--></span>
+                    <span><!--{$dayun+51}--></span>
+                    <span><!--{$dayun+61}--></span>
+                    <span><!--{$dayun+71}--></span>
+                </div>
+                <div class="word">
+                    <span><!--{:mb_substr($dayungz[0],0,1,'utf-8')}--><br><!--{:mb_substr($dayungz[0],1,1,'utf-8')}--></span>
+                    <span><!--{:mb_substr($dayungz[1],0,1,'utf-8')}--><br><!--{:mb_substr($dayungz[1],1,1,'utf-8')}--></span>
+                    <span><!--{:mb_substr($dayungz[2],0,1,'utf-8')}--><br><!--{:mb_substr($dayungz[2],1,1,'utf-8')}--></span>
+                    <span><!--{:mb_substr($dayungz[3],0,1,'utf-8')}--><br><!--{:mb_substr($dayungz[3],1,1,'utf-8')}--></span>
+                    <span><!--{:mb_substr($dayungz[4],0,1,'utf-8')}--><br><!--{:mb_substr($dayungz[4],1,1,'utf-8')}--></span>
+                    <span><!--{:mb_substr($dayungz[5],0,1,'utf-8')}--><br><!--{:mb_substr($dayungz[5],1,1,'utf-8')}--></span>
+                    <span><!--{:mb_substr($dayungz[6],0,1,'utf-8')}--><br><!--{:mb_substr($dayungz[6],1,1,'utf-8')}--></span>
+                    <span><!--{:mb_substr($dayungz[7],0,1,'utf-8')}--><br><!--{:mb_substr($dayungz[7],1,1,'utf-8')}--></span>
+                </div>
+            </dd>
+        </dl>
+    </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <title>八字分析</title>
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan style='display:none;' id='cnzz_stat_icon_1271422331'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1271422331%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+    <script> (function(designWidth, maxWidth) {
+            var doc = document,
+            win = window,
+            docEl = doc.documentElement,
+            remStyle = document.createElement("style"),
+            tid;
+
+            function refreshRem() {
+                var width = docEl.getBoundingClientRect().width;
+                maxWidth = maxWidth || 540;
+                width>maxWidth && (width=maxWidth);
+                var rem = width * 100 / designWidth;
+                remStyle.innerHTML = 'html{font-size:' + rem + 'px;}';
+            }
+
+            if (docEl.firstElementChild) {
+                docEl.firstElementChild.appendChild(remStyle);
+            } else {
+                var wrap = doc.createElement("div");
+                wrap.appendChild(remStyle);
+                doc.write(wrap.innerHTML);
+                wrap = null;
+            }
+            //要等 wiewport 设置好后才能执行 refreshRem，不然 refreshRem 会执行2次；
+            refreshRem();
+
+            win.addEventListener("resize", function() {
+                clearTimeout(tid); //防止执行两次
+                tid = setTimeout(refreshRem, 300);
+            }, false);
+
+            win.addEventListener("pageshow", function(e) {
+                if (e.persisted) { // 浏览器后退的时候重新计算
+                    clearTimeout(tid);
+                    tid = setTimeout(refreshRem, 300);
+                }
+            }, false);
+
+            if (doc.readyState === "complete") {
+                doc.body.style.fontSize = "16px";
+            } else {
+                doc.addEventListener("DOMContentLoaded", function(e) {
+                    doc.body.style.fontSize = "16px";
+                }, false);
+            }
+        })(750, 750);</script>
+    <!--[if lt IE 9]>  
+        <script src="http://cdn.bootcss.com/html5shiv/r29/html5.js"></script>
+        <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>    
+    <![endif]-->
+    <style>
+        *{margin:0;padding:0;}
+        body{font-family:PingFangSC-Medium, sans-serif;}
+        section{border-bottom:0.2rem solid #F0F0F0;}
+        section:last-child{border:0;}
+        .top_msg{height:2rem;display: flex;display: -webkit-flex;align-items: center;padding:0 0.24rem;}
+        .top_msg .bg_hd{width:1.2rem;height:1.2rem;padding-right:0.38rem;}
+        .top_msg .msg_box{list-style: none;}
+        .top_msg .msg_box li{font-size:0.32rem;color:#282828;padding-bottom: 0.12rem;}
+        .top_msg .msg_box :first-child p{display: inline-block;}
+        .top_msg .msg_box :first-child p:first-child{padding-right:1rem;}
+
+        .title{height:0.9rem;line-height:0.9rem;font-size:0.32rem;color:#282828;font-weight: 400;border-bottom: 1px solid #c0c0c0;padding-left:0.24rem;}
+        .itms{padding:0.3rem 0.24rem;list-style: none;overflow: hidden;}
+
+        .itms li a img{vertical-align: middle;}
+        .itms li{overflow: hidden;display: flex;margin-bottom: 0.2rem;}
+        .itms li a{
+            width:calc(100%/3);
+            display: inline-block;
+            height:auto;
+            margin-right:0.18rem;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .itms li a:last-child{margin-right:0;}
+    </style>
+</head>
+<body>
+    <section>
+        <div class="top_msg">
+            <div class="bg_hd">
+                <?php if($sex == 1): ?><img src="/bazipaipan/Public/images/03_icon_Head_man.png" width="100%" alt="用户头像"/>
+                    <?php else: ?>
+                    <img src="/bazipaipan/Public/images/03_icon_Head_woman.png" width="100%" alt="用户头像"/><?php endif; ?>
+
+            </div>
+            <ul class="msg_box">
+                <li><p><span>姓&nbsp&nbsp 名：</span><span><?php echo (cookie('znickname')); ?></span></p><p><span>性&nbsp&nbsp 别：</span><span><?php if($sex == 1): ?>男<?php else: ?>女<?php endif; ?></span></p></li>
+                <li><span>出生地：</span> <span><?php echo (cookie('placebirth')); ?></span></li>
+                <li><span>日&nbsp&nbsp 期：</span><span>阳历<?php echo (cookie('zyangli')); ?></span></li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <h2 class="title">命主分析</h2>
+        <ul class="itms">
+            <li>
+                <a href="<?php echo U('Index/end_suo','',false);?>"><img src="/bazipaipan/Public/images/icon_xingge.png" width="100%" alt="性格分析"/></a>
+                <a href="<?php echo U('Index/shiye_fx','',false);?>"><img src="/bazipaipan/Public/images/icon_shiye.png" width="100%" alt="事业分析"/></a>
+                <a href="<?php echo U('Index/bazi_my','',false);?>"><img src="/bazipaipan/Public/images/icon_bazi.png" width="100%" alt="八字命运"/></a>
+            </li>
+            <li>
+                <a href="<?php echo U('Index/caiyun_fx','',false);?>"><img src="/bazipaipan/Public/images/icon_caiyun.png" width="100%" alt="财运分析"/></a>
+                <a href="<?php echo U('Index/hunlian_fx','',false);?>"><img src="/bazipaipan/Public/images/icon_hunlian.png" width="100%" alt="婚恋分析"/></a>
+                <a href="<?php echo U('Index/jiankang_fx','',false);?>"><img src="/bazipaipan/Public/images/icon_jiankang.png" width="100%" alt="健康分析"/></a>
+            </li>
+
+        </ul>
+    </section>
+    <section>
+        <h2 class="title">流年运势</h2>
+        <ul class="itms">
+            <li>
+                <a href="https://al.go108.com/sc/qudao14/shiniandayun/"><img src="/bazipaipan/Public/images/icon_shiniandayun.png" width="100%" alt="十年大运"/></a>
+                <a href="https://al.go108.com/sc/qudao14/2018liunian/"><img src="/bazipaipan/Public/images/icon_2018yunshi.png" width="100%" alt="2018年运势"/></a>
+                <a href="https://al.go108.com/sc/qudao14/jiuxingshiye/index.php"><img src="/bazipaipan/Public/images/icon_yishengcaiyun.png" width="100%" alt="一生财运"/></a>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>

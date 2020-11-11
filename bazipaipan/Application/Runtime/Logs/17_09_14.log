@@ -1,0 +1,1223 @@
+[ 2017-09-14T08:59:23+08:00 ] ::1 /hebazi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T08:59:27+08:00 ] ::1 /hebazi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T08:59:39+08:00 ] ::1 /hebazi/index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-14T08:59:44+08:00 ] ::1 /hebazi/index.php/Home/Index/index2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\hebazi\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: select * from tb_wuxingju where id=03 [ RunTime:0.001000s ]
+SQL: select zwei from tb_zhuxingmwsx where id=9 [ RunTime:0.002000s ]
+SQL: select lzhen from tb_zhuxingmwsx where id=1 [ RunTime:0.000000s ]
+SQL: select ttong from tb_zhuxingmwsx where id=4 [ RunTime:0.001000s ]
+SQL: select wuqu from tb_zhuxingmwsx where id=5 [ RunTime:0.001000s ]
+SQL: select tyang from tb_zhuxingmwsx where id=6 [ RunTime:0.001000s ]
+SQL: select tji from tb_zhuxingmwsx where id=8 [ RunTime:0.000000s ]
+SQL: select tfu from tb_zhuxingmwsx where id=3 [ RunTime:0.000000s ]
+SQL: select tyin from tb_zhuxingmwsx where id=4 [ RunTime:0.001000s ]
+SQL: select tlang from tb_zhuxingmwsx where id=5 [ RunTime:0.001000s ]
+SQL: select jmen from tb_zhuxingmwsx where id=6 [ RunTime:0.000000s ]
+SQL: select txiang from tb_zhuxingmwsx where id=7 [ RunTime:0.001000s ]
+SQL: select tliang from tb_zhuxingmwsx where id=8 [ RunTime:0.001000s ]
+SQL: select qsha from tb_zhuxingmwsx where id=9 [ RunTime:0.001000s ]
+SQL: select pjun from tb_zhuxingmwsx where id=1 [ RunTime:0.000000s ]
+SQL: select * from tb_shengyuezx where id=02 [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 7 F:\php\hebazi\Application\Home\Common\function.php 第 216 行.
+NOTIC: [8] Undefined offset: 10 F:\php\hebazi\Application\Home\Common\function.php 第 218 行.
+NOTIC: [8] Undefined offset: 8 F:\php\hebazi\Application\Home\Common\function.php 第 220 行.
+NOTIC: [8] Undefined offset: 0 F:\php\hebazi\Application\Home\Common\function.php 第 222 行.
+NOTIC: [8] Undefined offset: 6 F:\php\hebazi\Application\Home\Common\function.php 第 226 行.
+SQL: select * from tb_shengnianzx where id=10 [ RunTime:0.002001s ]
+NOTIC: [8] Undefined offset: 1 F:\php\hebazi\Application\Home\Common\function.php 第 234 行.
+NOTIC: [8] Undefined offset: 7 F:\php\hebazi\Application\Home\Common\function.php 第 236 行.
+NOTIC: [8] Undefined offset: 4 F:\php\hebazi\Application\Home\Common\function.php 第 238 行.
+NOTIC: [8] Undefined offset: 11 F:\php\hebazi\Application\Home\Common\function.php 第 242 行.
+NOTIC: [8] Undefined offset: 9 F:\php\hebazi\Application\Home\Common\function.php 第 246 行.
+NOTIC: [8] Undefined offset: 5 F:\php\hebazi\Application\Home\Common\function.php 第 248 行.
+NOTIC: [8] Undefined offset: 3 F:\php\hebazi\Application\Home\Common\function.php 第 250 行.
+NOTIC: [8] Undefined offset: 0 F:\php\hebazi\Application\Home\Common\function.php 第 252 行.
+SQL: select * from tb_shixizx where hour=7 [ RunTime:0.001000s ]
+SQL: select wchang from tb_zhuxingmwsx where id=4 [ RunTime:0.001000s ]
+SQL: select wqu from tb_zhuxingmwsx where id=6 [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 6 F:\php\hebazi\Application\Home\Common\function.php 第 276 行.
+NOTIC: [8] Undefined offset: 5 F:\php\hebazi\Application\Home\Common\function.php 第 278 行.
+NOTIC: [8] Undefined offset: 1 F:\php\hebazi\Application\Home\Common\function.php 第 280 行.
+NOTIC: [8] Undefined offset: 8 F:\php\hebazi\Application\Home\Common\function.php 第 282 行.
+SQL: select * from tb_shengniangx where id=10 [ RunTime:0.001000s ]
+SQL: select qyang from tb_zhuxingmwsx where id=11 [ RunTime:0.001000s ]
+SQL: select tluo from tb_zhuxingmwsx where id=9 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 9 F:\php\hebazi\Application\Home\Common\function.php 第 295 行.
+NOTIC: [8] Undefined offset: 3 F:\php\hebazi\Application\Home\Common\function.php 第 297 行.
+NOTIC: [8] Undefined offset: 1 F:\php\hebazi\Application\Home\Common\function.php 第 299 行.
+NOTIC: [8] Undefined offset: 10 F:\php\hebazi\Application\Home\Common\function.php 第 301 行.
+NOTIC: [8] Undefined offset: 4 F:\php\hebazi\Application\Home\Common\function.php 第 305 行.
+SQL: select syc from tb_huoxing where id=7 [ RunTime:0.001000s ]
+SQL: select hxing from tb_zhuxingmwsx where id=7 [ RunTime:0.000000s ]
+SQL: select syc from tb_lingxing where id=7 [ RunTime:0.001000s ]
+SQL: select lxing from tb_zhuxingmwsx where id=2 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 2 F:\php\hebazi\Application\Home\Common\function.php 第 477 行.
+NOTIC: [8] Undefined offset: 5 F:\php\hebazi\Application\Home\Common\function.php 第 485 行.
+NOTIC: [8] Undefined offset: 3 F:\php\hebazi\Application\Home\Common\function.php 第 492 行.
+NOTIC: [8] Undefined offset: 0 F:\php\hebazi\Application\Home\Common\function.php 第 514 行.
+NOTIC: [8] Undefined offset: 10 F:\php\hebazi\Application\Home\Common\function.php 第 517 行.
+SQL: select * from tb_sihua where id=10 [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 3 F:\php\hebazi\Application\Home\Common\function.php 第 534 行.
+NOTIC: [8] Undefined offset: 4 F:\php\hebazi\Application\Home\Common\function.php 第 541 行.
+SQL: select * from tb_wedlock where name='乙卯' [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 5 F:\php\hebazi\Application\Home\Common\function.php 第 611 行.
+NOTIC: [8] Undefined offset: 3 F:\php\hebazi\Application\Home\Common\function.php 第 615 行.
+NOTIC: [8] Undefined offset: 5 F:\php\hebazi\Application\Home\Common\function.php 第 616 行.
+SQL: select * from tb_wuxingju where id=07 [ RunTime:0.001000s ]
+SQL: select zwei from tb_zhuxingmwsx where id=8 [ RunTime:0.000000s ]
+SQL: select lzhen from tb_zhuxingmwsx where id=0 [ RunTime:0.001000s ]
+SQL: select ttong from tb_zhuxingmwsx where id=3 [ RunTime:0.001001s ]
+SQL: select wuqu from tb_zhuxingmwsx where id=4 [ RunTime:0.000000s ]
+SQL: select tyang from tb_zhuxingmwsx where id=5 [ RunTime:0.000000s ]
+SQL: select tji from tb_zhuxingmwsx where id=7 [ RunTime:0.001000s ]
+SQL: select tfu from tb_zhuxingmwsx where id=4 [ RunTime:0.000000s ]
+SQL: select tyin from tb_zhuxingmwsx where id=5 [ RunTime:0.000000s ]
+SQL: select tlang from tb_zhuxingmwsx where id=6 [ RunTime:0.001000s ]
+SQL: select jmen from tb_zhuxingmwsx where id=7 [ RunTime:0.001000s ]
+SQL: select txiang from tb_zhuxingmwsx where id=8 [ RunTime:0.000000s ]
+SQL: select tliang from tb_zhuxingmwsx where id=9 [ RunTime:0.001000s ]
+SQL: select qsha from tb_zhuxingmwsx where id=10 [ RunTime:0.001000s ]
+SQL: select pjun from tb_zhuxingmwsx where id=2 [ RunTime:0.000000s ]
+SQL: select * from tb_shengyuezx where id=03 [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 6 F:\php\hebazi\Application\Home\Common\function.php 第 841 行.
+NOTIC: [8] Undefined offset: 8 F:\php\hebazi\Application\Home\Common\function.php 第 843 行.
+NOTIC: [8] Undefined offset: 9 F:\php\hebazi\Application\Home\Common\function.php 第 845 行.
+NOTIC: [8] Undefined offset: 1 F:\php\hebazi\Application\Home\Common\function.php 第 847 行.
+NOTIC: [8] Undefined offset: 2 F:\php\hebazi\Application\Home\Common\function.php 第 849 行.
+SQL: select * from tb_shengnianzx where id=8 [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 11 F:\php\hebazi\Application\Home\Common\function.php 第 859 行.
+NOTIC: [8] Undefined offset: 9 F:\php\hebazi\Application\Home\Common\function.php 第 861 行.
+NOTIC: [8] Undefined offset: 2 F:\php\hebazi\Application\Home\Common\function.php 第 863 行.
+NOTIC: [8] Undefined offset: 6 F:\php\hebazi\Application\Home\Common\function.php 第 865 行.
+NOTIC: [8] Undefined offset: 1 F:\php\hebazi\Application\Home\Common\function.php 第 869 行.
+NOTIC: [8] Undefined offset: 10 F:\php\hebazi\Application\Home\Common\function.php 第 877 行.
+NOTIC: [8] Undefined offset: 5 F:\php\hebazi\Application\Home\Common\function.php 第 879 行.
+NOTIC: [8] Undefined offset: 3 F:\php\hebazi\Application\Home\Common\function.php 第 887 行.
+SQL: select * from tb_shixizx where hour=9 [ RunTime:0.001000s ]
+SQL: select wchang from tb_zhuxingmwsx where id=3 [ RunTime:0.001000s ]
+SQL: select wqu from tb_zhuxingmwsx where id=7 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 7 F:\php\hebazi\Application\Home\Common\function.php 第 901 行.
+NOTIC: [8] Undefined offset: 4 F:\php\hebazi\Application\Home\Common\function.php 第 903 行.
+NOTIC: [8] Undefined offset: 2 F:\php\hebazi\Application\Home\Common\function.php 第 905 行.
+NOTIC: [8] Undefined offset: 9 F:\php\hebazi\Application\Home\Common\function.php 第 907 行.
+NOTIC: [8] Undefined offset: 5 F:\php\hebazi\Application\Home\Common\function.php 第 909 行.
+SQL: select * from tb_shengniangx where id=8 [ RunTime:0.000000s ]
+SQL: select qyang from tb_zhuxingmwsx where id=8 [ RunTime:0.001000s ]
+SQL: select tluo from tb_zhuxingmwsx where id=6 [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 6 F:\php\hebazi\Application\Home\Common\function.php 第 920 行.
+NOTIC: [8] Undefined offset: 7 F:\php\hebazi\Application\Home\Common\function.php 第 922 行.
+NOTIC: [8] Undefined offset: 4 F:\php\hebazi\Application\Home\Common\function.php 第 924 行.
+NOTIC: [8] Undefined offset: 3 F:\php\hebazi\Application\Home\Common\function.php 第 928 行.
+NOTIC: [8] Undefined offset: 2 F:\php\hebazi\Application\Home\Common\function.php 第 934 行.
+SQL: select hmw from tb_huoxing where id=9 [ RunTime:0.001000s ]
+SQL: select hxing from tb_zhuxingmwsx where id=3 [ RunTime:0.000000s ]
+SQL: select hmw from tb_lingxing where id=9 [ RunTime:0.001000s ]
+SQL: select lxing from tb_zhuxingmwsx where id=4 [ RunTime:0.001001s ]
+NOTIC: [8] Undefined offset: 4 F:\php\hebazi\Application\Home\Common\function.php 第 1102 行.
+NOTIC: [8] Undefined offset: 10 F:\php\hebazi\Application\Home\Common\function.php 第 1110 行.
+NOTIC: [8] Undefined offset: 9 F:\php\hebazi\Application\Home\Common\function.php 第 1117 行.
+NOTIC: [8] Undefined offset: 0 F:\php\hebazi\Application\Home\Common\function.php 第 1123 行.
+NOTIC: [8] Undefined offset: 8 F:\php\hebazi\Application\Home\Common\function.php 第 1129 行.
+NOTIC: [8] Undefined offset: 1 F:\php\hebazi\Application\Home\Common\function.php 第 1136 行.
+NOTIC: [8] Undefined offset: 11 F:\php\hebazi\Application\Home\Common\function.php 第 1142 行.
+SQL: select * from tb_sihua where id=8 [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 2 F:\php\hebazi\Application\Home\Common\function.php 第 1159 行.
+NOTIC: [8] Undefined offset: 3 F:\php\hebazi\Application\Home\Common\function.php 第 1166 行.
+NOTIC: [8] Undefined offset: 10 F:\php\hebazi\Application\Home\Common\function.php 第 1188 行.
+SQL: select * from tb_wedlock where name='丁丑' [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 4 F:\php\hebazi\Application\Home\Common\function.php 第 1236 行.
+NOTIC: [8] Undefined offset: 6 F:\php\hebazi\Application\Home\Common\function.php 第 1239 行.
+SQL: select * from tb_bzfpb where name='男火女火' [ RunTime:0.001000s ]
+SQL: select * from tb_shengxiaohp where name='男鸡女羊' [ RunTime:0.025001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: sngxx F:\php\hebazi\Application\Runtime\Cache\Home\983f572076e3a0909bb7d9a7c3e06cc9.php 第 163 行.
+NOTIC: [8] Undefined variable: fqsngxx F:\php\hebazi\Application\Runtime\Cache\Home\983f572076e3a0909bb7d9a7c3e06cc9.php 第 174 行.
+NOTIC: [8] Undefined variable: fsngxx F:\php\hebazi\Application\Runtime\Cache\Home\983f572076e3a0909bb7d9a7c3e06cc9.php 第 230 行.
+NOTIC: [8] Undefined variable: ffqsngxx F:\php\hebazi\Application\Runtime\Cache\Home\983f572076e3a0909bb7d9a7c3e06cc9.php 第 241 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-14T09:00:12+08:00 ] ::1 /hebazi/index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-14T09:00:13+08:00 ] ::1 /hebazi/index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:00:14+08:00 ] ::1 /hebazi/index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-14T09:00:14+08:00 ] ::1 /hebazi/index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-14T09:00:15+08:00 ] ::1 /hebazi/index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:00:16+08:00 ] ::1 /hebazi/index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:00:16+08:00 ] ::1 /hebazi/index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-14T09:00:16+08:00 ] ::1 /hebazi/index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:00:17+08:00 ] ::1 /hebazi/index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-14T09:00:17+08:00 ] ::1 /hebazi/index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:00:17+08:00 ] ::1 /hebazi/index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:00:17+08:00 ] ::1 /hebazi/index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:00:17+08:00 ] ::1 /hebazi/index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-14T09:00:19+08:00 ] ::1 /hebazi/index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:00:19+08:00 ] ::1 /hebazi/index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:00:19+08:00 ] ::1 /hebazi/index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:00:20+08:00 ] ::1 /hebazi/index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-14T09:00:20+08:00 ] ::1 /hebazi/index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-14T09:00:20+08:00 ] ::1 /hebazi/index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:44:10+08:00 ] ::1 /hebazi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:44:11+08:00 ] ::1 /hebazi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:44:12+08:00 ] ::1 /hebazi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:44:13+08:00 ] ::1 /hebazi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:44:15+08:00 ] ::1 /hebazi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:44:16+08:00 ] ::1 /hebazi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:44:16+08:00 ] ::1 /hebazi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:44:16+08:00 ] ::1 /hebazi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:44:20+08:00 ] ::1 /hebazi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:44:20+08:00 ] ::1 /hebazi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-14T09:44:21+08:00 ] ::1 /hebazi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-14T09:44:21+08:00 ] ::1 /hebazi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:44:21+08:00 ] ::1 /hebazi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-14T09:44:22+08:00 ] ::1 /hebazi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:44:22+08:00 ] ::1 /hebazi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:44:22+08:00 ] ::1 /hebazi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:44:22+08:00 ] ::1 /hebazi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:44:23+08:00 ] ::1 /hebazi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:44:23+08:00 ] ::1 /hebazi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T09:44:23+08:00 ] ::1 /hebazi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T10:08:26+08:00 ] ::1 /hebazi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T10:08:26+08:00 ] ::1 /hebazi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T10:08:30+08:00 ] ::1 /hebazi/index.php/Home/Index/index1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-14T10:08:35+08:00 ] ::1 /hebazi/index.php/Home/Index/index2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\php\hebazi\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: select * from tb_wuxingju where id=05 [ RunTime:0.049002s ]
+SQL: select zwei from tb_zhuxingmwsx where id=10 [ RunTime:0.057004s ]
+SQL: select lzhen from tb_zhuxingmwsx where id=2 [ RunTime:0.047002s ]
+SQL: select ttong from tb_zhuxingmwsx where id=5 [ RunTime:0.046003s ]
+SQL: select wuqu from tb_zhuxingmwsx where id=6 [ RunTime:0.046003s ]
+SQL: select tyang from tb_zhuxingmwsx where id=7 [ RunTime:0.045002s ]
+SQL: select tji from tb_zhuxingmwsx where id=9 [ RunTime:0.045003s ]
+SQL: select tfu from tb_zhuxingmwsx where id=2 [ RunTime:0.044002s ]
+SQL: select tyin from tb_zhuxingmwsx where id=3 [ RunTime:0.046003s ]
+SQL: select tlang from tb_zhuxingmwsx where id=4 [ RunTime:0.046003s ]
+SQL: select jmen from tb_zhuxingmwsx where id=5 [ RunTime:0.044002s ]
+SQL: select txiang from tb_zhuxingmwsx where id=6 [ RunTime:0.048003s ]
+SQL: select tliang from tb_zhuxingmwsx where id=7 [ RunTime:0.044002s ]
+SQL: select qsha from tb_zhuxingmwsx where id=8 [ RunTime:0.045003s ]
+SQL: select pjun from tb_zhuxingmwsx where id=0 [ RunTime:0.045003s ]
+SQL: select * from tb_shengyuezx where id=09 [ RunTime:0.045002s ]
+NOTIC: [8] Undefined offset: 0 F:\php\hebazi\Application\Home\Common\function.php 第 216 行.
+NOTIC: [8] Undefined offset: 8 F:\php\hebazi\Application\Home\Common\function.php 第 218 行.
+NOTIC: [8] Undefined offset: 3 F:\php\hebazi\Application\Home\Common\function.php 第 220 行.
+NOTIC: [8] Undefined offset: 7 F:\php\hebazi\Application\Home\Common\function.php 第 222 行.
+SQL: select * from tb_shengnianzx where id=10 [ RunTime:0.045003s ]
+NOTIC: [8] Undefined offset: 1 F:\php\hebazi\Application\Home\Common\function.php 第 234 行.
+NOTIC: [8] Undefined offset: 7 F:\php\hebazi\Application\Home\Common\function.php 第 236 行.
+NOTIC: [8] Undefined offset: 4 F:\php\hebazi\Application\Home\Common\function.php 第 238 行.
+NOTIC: [8] Undefined offset: 11 F:\php\hebazi\Application\Home\Common\function.php 第 242 行.
+NOTIC: [8] Undefined offset: 9 F:\php\hebazi\Application\Home\Common\function.php 第 246 行.
+NOTIC: [8] Undefined offset: 5 F:\php\hebazi\Application\Home\Common\function.php 第 248 行.
+NOTIC: [8] Undefined offset: 3 F:\php\hebazi\Application\Home\Common\function.php 第 250 行.
+NOTIC: [8] Undefined offset: 0 F:\php\hebazi\Application\Home\Common\function.php 第 252 行.
+SQL: select * from tb_shixizx where hour=0 [ RunTime:0.045002s ]
+SQL: select wchang from tb_zhuxingmwsx where id=8 [ RunTime:0.045003s ]
+SQL: select wqu from tb_zhuxingmwsx where id=2 [ RunTime:0.045002s ]
+NOTIC: [8] Undefined offset: 2 F:\php\hebazi\Application\Home\Common\function.php 第 276 行.
+NOTIC: [8] Undefined offset: 9 F:\php\hebazi\Application\Home\Common\function.php 第 278 行.
+NOTIC: [8] Undefined offset: 4 F:\php\hebazi\Application\Home\Common\function.php 第 282 行.
+NOTIC: [8] Undefined offset: 0 F:\php\hebazi\Application\Home\Common\function.php 第 284 行.
+SQL: select * from tb_shengniangx where id=4 [ RunTime:0.047003s ]
+SQL: select qyang from tb_zhuxingmwsx where id=5 [ RunTime:0.046003s ]
+SQL: select tluo from tb_zhuxingmwsx where id=3 [ RunTime:0.046002s ]
+NOTIC: [8] Undefined offset: 3 F:\php\hebazi\Application\Home\Common\function.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 F:\php\hebazi\Application\Home\Common\function.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 F:\php\hebazi\Application\Home\Common\function.php 第 299 行.
+NOTIC: [8] Undefined offset: 4 F:\php\hebazi\Application\Home\Common\function.php 第 301 行.
+NOTIC: [8] Undefined offset: 0 F:\php\hebazi\Application\Home\Common\function.php 第 305 行.
+NOTIC: [8] Undefined offset: 1 F:\php\hebazi\Application\Home\Common\function.php 第 307 行.
+SQL: select syc from tb_huoxing where id=0 [ RunTime:0.046003s ]
+NOTIC: [8] Undefined offset: 0 F:\php\hebazi\Application\Home\Common\function.php 第 453 行.
+SQL: select hxing from tb_zhuxingmwsx where id= [ RunTime:0.047003s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : select hxing from tb_zhuxingmwsx where id=
+SQL: select syc from tb_lingxing where id=0 [ RunTime:0.044002s ]
+NOTIC: [8] Undefined offset: 0 F:\php\hebazi\Application\Home\Common\function.php 第 470 行.
+SQL: select lxing from tb_zhuxingmwsx where id= [ RunTime:0.047003s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : select lxing from tb_zhuxingmwsx where id=
+NOTIC: [8] Undefined offset: 2 F:\php\hebazi\Application\Home\Common\function.php 第 485 行.
+NOTIC: [8] Undefined offset: 5 F:\php\hebazi\Application\Home\Common\function.php 第 492 行.
+NOTIC: [8] Undefined offset: 11 F:\php\hebazi\Application\Home\Common\function.php 第 504 行.
+NOTIC: [8] Undefined offset: 6 F:\php\hebazi\Application\Home\Common\function.php 第 511 行.
+NOTIC: [8] Undefined offset: 4 F:\php\hebazi\Application\Home\Common\function.php 第 514 行.
+SQL: select * from tb_sihua where id=4 [ RunTime:0.048003s ]
+NOTIC: [8] Undefined offset: 1 F:\php\hebazi\Application\Home\Common\function.php 第 534 行.
+NOTIC: [8] Undefined offset: 2 F:\php\hebazi\Application\Home\Common\function.php 第 541 行.
+NOTIC: [8] Undefined offset: 0 F:\php\hebazi\Application\Home\Common\function.php 第 550 行.
+SQL: select * from tb_wedlock where name='乙末' [ RunTime:0.045002s ]
+NOTIC: [8] Undefined offset: 0 F:\php\hebazi\Application\Home\Common\function.php 第 573 行.
+NOTIC: [8] Undefined offset: 0 F:\php\hebazi\Application\Home\Common\function.php 第 573 行.
+NOTIC: [8] Undefined offset: 0 F:\php\hebazi\Application\Home\Common\function.php 第 576 行.
+NOTIC: [8] Undefined offset: 0 F:\php\hebazi\Application\Home\Common\function.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 F:\php\hebazi\Application\Home\Common\function.php 第 579 行.
+NOTIC: [8] Undefined offset: 0 F:\php\hebazi\Application\Home\Common\function.php 第 580 行.
+NOTIC: [8] Undefined offset: 0 F:\php\hebazi\Application\Home\Common\function.php 第 590 行.
+NOTIC: [8] Undefined offset: 0 F:\php\hebazi\Application\Home\Common\function.php 第 593 行.
+NOTIC: [8] Undefined offset: 0 F:\php\hebazi\Application\Home\Common\function.php 第 593 行.
+NOTIC: [8] Undefined offset: 9 F:\php\hebazi\Application\Home\Common\function.php 第 611 行.
+NOTIC: [8] Undefined offset: 7 F:\php\hebazi\Application\Home\Common\function.php 第 615 行.
+SQL: select * from tb_wuxingju where id=07 [ RunTime:0.044003s ]
+SQL: select zwei from tb_zhuxingmwsx where id=8 [ RunTime:0.044003s ]
+SQL: select lzhen from tb_zhuxingmwsx where id=0 [ RunTime:0.046002s ]
+SQL: select ttong from tb_zhuxingmwsx where id=3 [ RunTime:0.047003s ]
+SQL: select wuqu from tb_zhuxingmwsx where id=4 [ RunTime:0.052003s ]
+SQL: select tyang from tb_zhuxingmwsx where id=5 [ RunTime:0.046003s ]
+SQL: select tji from tb_zhuxingmwsx where id=7 [ RunTime:0.045002s ]
+SQL: select tfu from tb_zhuxingmwsx where id=4 [ RunTime:0.045003s ]
+SQL: select tyin from tb_zhuxingmwsx where id=5 [ RunTime:0.046002s ]
+SQL: select tlang from tb_zhuxingmwsx where id=6 [ RunTime:0.044003s ]
+SQL: select jmen from tb_zhuxingmwsx where id=7 [ RunTime:0.044002s ]
+SQL: select txiang from tb_zhuxingmwsx where id=8 [ RunTime:0.048003s ]
+SQL: select tliang from tb_zhuxingmwsx where id=9 [ RunTime:0.052003s ]
+SQL: select qsha from tb_zhuxingmwsx where id=10 [ RunTime:0.046003s ]
+SQL: select pjun from tb_zhuxingmwsx where id=2 [ RunTime:0.047002s ]
+SQL: select * from tb_shengyuezx where id=03 [ RunTime:0.047003s ]
+NOTIC: [8] Undefined offset: 6 F:\php\hebazi\Application\Home\Common\function.php 第 841 行.
+NOTIC: [8] Undefined offset: 8 F:\php\hebazi\Application\Home\Common\function.php 第 843 行.
+NOTIC: [8] Undefined offset: 9 F:\php\hebazi\Application\Home\Common\function.php 第 845 行.
+NOTIC: [8] Undefined offset: 1 F:\php\hebazi\Application\Home\Common\function.php 第 847 行.
+NOTIC: [8] Undefined offset: 2 F:\php\hebazi\Application\Home\Common\function.php 第 849 行.
+SQL: select * from tb_shengnianzx where id=8 [ RunTime:0.045003s ]
+NOTIC: [8] Undefined offset: 11 F:\php\hebazi\Application\Home\Common\function.php 第 859 行.
+NOTIC: [8] Undefined offset: 9 F:\php\hebazi\Application\Home\Common\function.php 第 861 行.
+NOTIC: [8] Undefined offset: 2 F:\php\hebazi\Application\Home\Common\function.php 第 863 行.
+NOTIC: [8] Undefined offset: 6 F:\php\hebazi\Application\Home\Common\function.php 第 865 行.
+NOTIC: [8] Undefined offset: 1 F:\php\hebazi\Application\Home\Common\function.php 第 869 行.
+NOTIC: [8] Undefined offset: 10 F:\php\hebazi\Application\Home\Common\function.php 第 877 行.
+NOTIC: [8] Undefined offset: 5 F:\php\hebazi\Application\Home\Common\function.php 第 879 行.
+NOTIC: [8] Undefined offset: 3 F:\php\hebazi\Application\Home\Common\function.php 第 887 行.
+SQL: select * from tb_shixizx where hour=9 [ RunTime:0.048002s ]
+SQL: select wchang from tb_zhuxingmwsx where id=3 [ RunTime:0.045003s ]
+SQL: select wqu from tb_zhuxingmwsx where id=7 [ RunTime:0.044003s ]
+NOTIC: [8] Undefined offset: 7 F:\php\hebazi\Application\Home\Common\function.php 第 901 行.
+NOTIC: [8] Undefined offset: 4 F:\php\hebazi\Application\Home\Common\function.php 第 903 行.
+NOTIC: [8] Undefined offset: 2 F:\php\hebazi\Application\Home\Common\function.php 第 905 行.
+NOTIC: [8] Undefined offset: 9 F:\php\hebazi\Application\Home\Common\function.php 第 907 行.
+NOTIC: [8] Undefined offset: 5 F:\php\hebazi\Application\Home\Common\function.php 第 909 行.
+SQL: select * from tb_shengniangx where id=8 [ RunTime:0.045002s ]
+SQL: select qyang from tb_zhuxingmwsx where id=8 [ RunTime:0.044003s ]
+SQL: select tluo from tb_zhuxingmwsx where id=6 [ RunTime:0.044002s ]
+NOTIC: [8] Undefined offset: 6 F:\php\hebazi\Application\Home\Common\function.php 第 920 行.
+NOTIC: [8] Undefined offset: 7 F:\php\hebazi\Application\Home\Common\function.php 第 922 行.
+NOTIC: [8] Undefined offset: 4 F:\php\hebazi\Application\Home\Common\function.php 第 924 行.
+NOTIC: [8] Undefined offset: 3 F:\php\hebazi\Application\Home\Common\function.php 第 928 行.
+NOTIC: [8] Undefined offset: 2 F:\php\hebazi\Application\Home\Common\function.php 第 934 行.
+SQL: select hmw from tb_huoxing where id=9 [ RunTime:0.045003s ]
+SQL: select hxing from tb_zhuxingmwsx where id=3 [ RunTime:0.047002s ]
+SQL: select hmw from tb_lingxing where id=9 [ RunTime:0.047003s ]
+SQL: select lxing from tb_zhuxingmwsx where id=4 [ RunTime:0.046003s ]
+NOTIC: [8] Undefined offset: 4 F:\php\hebazi\Application\Home\Common\function.php 第 1102 行.
+NOTIC: [8] Undefined offset: 10 F:\php\hebazi\Application\Home\Common\function.php 第 1110 行.
+NOTIC: [8] Undefined offset: 9 F:\php\hebazi\Application\Home\Common\function.php 第 1117 行.
+NOTIC: [8] Undefined offset: 0 F:\php\hebazi\Application\Home\Common\function.php 第 1123 行.
+NOTIC: [8] Undefined offset: 8 F:\php\hebazi\Application\Home\Common\function.php 第 1129 行.
+NOTIC: [8] Undefined offset: 1 F:\php\hebazi\Application\Home\Common\function.php 第 1136 行.
+NOTIC: [8] Undefined offset: 11 F:\php\hebazi\Application\Home\Common\function.php 第 1142 行.
+SQL: select * from tb_sihua where id=8 [ RunTime:0.045002s ]
+NOTIC: [8] Undefined offset: 2 F:\php\hebazi\Application\Home\Common\function.php 第 1159 行.
+NOTIC: [8] Undefined offset: 3 F:\php\hebazi\Application\Home\Common\function.php 第 1166 行.
+NOTIC: [8] Undefined offset: 10 F:\php\hebazi\Application\Home\Common\function.php 第 1188 行.
+SQL: select * from tb_wedlock where name='丁丑' [ RunTime:0.045003s ]
+NOTIC: [8] Undefined offset: 4 F:\php\hebazi\Application\Home\Common\function.php 第 1236 行.
+NOTIC: [8] Undefined offset: 6 F:\php\hebazi\Application\Home\Common\function.php 第 1239 行.
+SQL: select * from tb_bzfpb where name='男金女火' [ RunTime:0.045003s ]
+SQL: select * from tb_shengxiaohp where name='男鸡女羊' [ RunTime:0.045002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sngxx F:\php\hebazi\Application\Runtime\Cache\Home\983f572076e3a0909bb7d9a7c3e06cc9.php 第 163 行.
+NOTIC: [8] Undefined variable: fqsngxx F:\php\hebazi\Application\Runtime\Cache\Home\983f572076e3a0909bb7d9a7c3e06cc9.php 第 174 行.
+NOTIC: [8] Undefined variable: fsngxx F:\php\hebazi\Application\Runtime\Cache\Home\983f572076e3a0909bb7d9a7c3e06cc9.php 第 230 行.
+NOTIC: [8] Undefined variable: ffqsngxx F:\php\hebazi\Application\Runtime\Cache\Home\983f572076e3a0909bb7d9a7c3e06cc9.php 第 241 行.
+NOTIC: [2] Illegal string offset 'ny' F:\php\hebazi\Application\Runtime\Cache\Home\983f572076e3a0909bb7d9a7c3e06cc9.php 第 313 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\php\hebazi\Application\Runtime\Cache\Home\983f572076e3a0909bb7d9a7c3e06cc9.php 第 313 行.
+NOTIC: [2] Illegal string offset 'experience' F:\php\hebazi\Application\Runtime\Cache\Home\983f572076e3a0909bb7d9a7c3e06cc9.php 第 317 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\php\hebazi\Application\Runtime\Cache\Home\983f572076e3a0909bb7d9a7c3e06cc9.php 第 317 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
